@@ -1,0 +1,826 @@
+[
+  {
+    "id": "ui-ux-pro-max",
+    "name": "UI UX Pro Max",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "category": "skills",
+    "subpath": "",
+    "description": "UI 風格、配色、字體與 UX 設計指南",
+    "tags": [
+      "design",
+      "palette",
+      "typography"
+    ],
+    "localPath": "repos/nextlevelbuilder--ui-ux-pro-max-skill",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "canvas-design",
+    "name": "Canvas Design",
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "category": "skills",
+    "subpath": "skills/canvas-design",
+    "description": "海報與靜態視覺創作技能",
+    "tags": [
+      "poster",
+      "art",
+      "png",
+      "pdf"
+    ],
+    "localPath": "repos/anthropics--skills/skills/canvas-design",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "pptx",
+    "name": "PowerPoint",
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "category": "skills",
+    "subpath": "skills/pptx",
+    "description": "簡報建立、編輯與檢查技能",
+    "tags": [
+      "slides",
+      "presentation",
+      "pptx"
+    ],
+    "localPath": "repos/anthropics--skills/skills/pptx",
+    "licenseNote": "See skills/pptx/LICENSE.txt in the pinned source version for the applicable license."
+  },
+  {
+    "id": "theme-factory",
+    "name": "Theme Factory",
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "category": "skills",
+    "subpath": "skills/theme-factory",
+    "description": "文件、簡報及網站主題",
+    "tags": [
+      "theme",
+      "palette",
+      "document"
+    ],
+    "localPath": "repos/anthropics--skills/skills/theme-factory",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "stitch-skills",
+    "name": "Stitch Skills",
+    "repo": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "category": "skills",
+    "subpath": "",
+    "description": "Stitch 設計工作流程與 Agent 技能",
+    "tags": [
+      "stitch",
+      "screen",
+      "google"
+    ],
+    "localPath": "repos/google-labs-code--stitch-skills",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "frontend-design",
+    "name": "Frontend Design",
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "category": "skills",
+    "subpath": "skills/frontend-design",
+    "description": "前端視覺與介面實作技能",
+    "tags": [
+      "frontend",
+      "ui",
+      "layout"
+    ],
+    "localPath": "repos/anthropics--skills/skills/frontend-design",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "design-md",
+    "name": "DESIGN.md",
+    "repo": "google-labs-code/design.md",
+    "url": "https://github.com/google-labs-code/design.md",
+    "category": "specification",
+    "subpath": "",
+    "description": "設計系統與視覺識別規格",
+    "tags": [
+      "design",
+      "tokens",
+      "specification"
+    ],
+    "localPath": "repos/google-labs-code--design.md",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "astryx",
+    "name": "Astryx",
+    "repo": "meta/astryx",
+    "url": "https://github.com/meta/astryx",
+    "category": "components",
+    "subpath": "",
+    "description": "Meta 設計系統",
+    "tags": [
+      "react",
+      "design",
+      "system"
+    ],
+    "localPath": "repos/meta--astryx",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "shadcn-ui",
+    "name": "shadcn/ui",
+    "repo": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
+    "category": "components",
+    "subpath": "",
+    "description": "可自主管理原始碼的 UI 元件",
+    "tags": [
+      "react",
+      "components",
+      "accessible"
+    ],
+    "localPath": "repos/shadcn-ui--ui",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "repo": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "category": "styling",
+    "subpath": "",
+    "description": "Utility-first CSS 框架",
+    "tags": [
+      "css",
+      "styling",
+      "framework"
+    ],
+    "localPath": "repos/tailwindlabs--tailwindcss",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "magic-ui",
+    "name": "Magic UI",
+    "repo": "magicuidesign/magicui",
+    "url": "https://github.com/magicuidesign/magicui",
+    "category": "components",
+    "subpath": "",
+    "description": "動畫與互動元件",
+    "tags": [
+      "react",
+      "animation",
+      "components"
+    ],
+    "localPath": "repos/magicuidesign--magicui",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "magic-mcp",
+    "name": "Magic MCP",
+    "repo": "21st-dev/magic-mcp",
+    "url": "https://github.com/21st-dev/magic-mcp",
+    "category": "mcp",
+    "subpath": "",
+    "description": "21st UI 元件搜尋與生成 MCP",
+    "tags": [
+      "mcp",
+      "ui",
+      "generation"
+    ],
+    "localPath": "repos/21st-dev--magic-mcp",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "figma-context-mcp",
+    "name": "Figma Context MCP",
+    "repo": "GLips/Figma-Context-MCP",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "category": "mcp",
+    "subpath": "",
+    "description": "將 Figma 設計上下文提供給 Agent",
+    "tags": [
+      "figma",
+      "mcp",
+      "design"
+    ],
+    "localPath": "repos/GLips--Figma-Context-MCP",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "repo": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "category": "application",
+    "subpath": "",
+    "description": "開源協作設計平台",
+    "tags": [
+      "design",
+      "svg",
+      "collaboration"
+    ],
+    "localPath": "repos/penpot--penpot",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "repo": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "category": "canvas",
+    "subpath": "",
+    "description": "手繪圖表與線框圖",
+    "tags": [
+      "diagram",
+      "wireframe",
+      "drawing"
+    ],
+    "localPath": "repos/excalidraw--excalidraw",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "repo": "tldraw/tldraw",
+    "url": "https://github.com/tldraw/tldraw",
+    "category": "canvas",
+    "subpath": "",
+    "description": "無限畫布 SDK；部署前確認授權",
+    "tags": [
+      "canvas",
+      "whiteboard",
+      "sdk"
+    ],
+    "localPath": "repos/tldraw--tldraw",
+    "licenseNote": "使用自訂授權，正式部署可能需要授權金鑰"
+  },
+  {
+    "id": "lucide",
+    "name": "Lucide",
+    "repo": "lucide-icons/lucide",
+    "url": "https://github.com/lucide-icons/lucide",
+    "category": "assets",
+    "subpath": "",
+    "description": "圖示庫",
+    "tags": [
+      "icons",
+      "svg",
+      "assets"
+    ],
+    "localPath": "repos/lucide-icons--lucide",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo",
+    "repo": "adobe/leonardo",
+    "url": "https://github.com/adobe/leonardo",
+    "category": "styling",
+    "subpath": "",
+    "description": "依對比度建立色彩系統",
+    "tags": [
+      "color",
+      "contrast",
+      "accessibility"
+    ],
+    "localPath": "repos/adobe--leonardo",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "rembg",
+    "name": "rembg",
+    "repo": "danielgatis/rembg",
+    "url": "https://github.com/danielgatis/rembg",
+    "category": "media",
+    "subpath": "",
+    "description": "背景移除工具與 Python 套件",
+    "tags": [
+      "image",
+      "background",
+      "python"
+    ],
+    "localPath": "repos/danielgatis--rembg",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "agent-browser",
+    "name": "Agent Browser",
+    "repo": "vercel-labs/agent-browser",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "category": "automation",
+    "subpath": "",
+    "description": "瀏覽器自動化與畫面檢查 CLI",
+    "tags": [
+      "browser",
+      "testing",
+      "automation"
+    ],
+    "localPath": "repos/vercel-labs--agent-browser",
+    "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計"
+  },
+  {
+    "id": "motion-design-skill",
+    "name": "動態設計技能",
+    "repo": "LottieFiles/motion-design-skill",
+    "url": "https://github.com/LottieFiles/motion-design-skill",
+    "category": "motion",
+    "description": "動態時序、緩動、編排與介面動畫原則",
+    "licenseNote": "MIT；以下載版本 LICENSE 為準",
+    "requirements": "讀取技能文件；實際產出仍需要 Agent 與動畫工具",
+    "tags": [
+      "動畫 緩動",
+      "motion-design-skill"
+    ],
+    "subpath": "",
+    "localPath": "repos/LottieFiles--motion-design-skill",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/LottieFiles--motion-design-skill/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/LottieFiles/motion-design-skill"
+  },
+  {
+    "id": "motion-ai-kit",
+    "name": "Motion AI Kit",
+    "repo": "motiondivision/ai-kit",
+    "url": "https://github.com/motiondivision/ai-kit",
+    "category": "motion",
+    "description": "CSS 彈簧動畫、文件檢索與動態效能分析",
+    "licenseNote": "下載版本未在根目錄提供 LICENSE；先作本地參考。文件搜尋與部分工具免費，MotionScore 等功能需要 Motion+。",
+    "requirements": "需依官方說明設定 MCP；部分功能需要 Motion+",
+    "tags": [
+      "動畫 緩動",
+      "ai-kit"
+    ],
+    "subpath": "",
+    "localPath": "repos/motiondivision--ai-kit",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "reuseStatus": "授權未明確，先作本地參考",
+    "licenseFiles": [],
+    "sourceEvidence": "https://github.com/motiondivision/ai-kit"
+  },
+  {
+    "id": "remotion-skills",
+    "name": "Remotion 官方技能",
+    "repo": "remotion-dev/skills",
+    "url": "https://github.com/remotion-dev/skills",
+    "category": "video",
+    "description": "以 React 建立影片的 Agent 技能與實作指南",
+    "licenseNote": "下載版本未在根目錄提供 LICENSE；先作本地文件參考，重用或散布前確認授權。Remotion 引擎另有商業授權條件。",
+    "requirements": "讀取 SKILL.md；影片產出需要 Remotion 執行環境",
+    "tags": [
+      "影片 渲染",
+      "skills"
+    ],
+    "subpath": "",
+    "localPath": "repos/remotion-dev--skills",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "reuseStatus": "授權未明確，先作本地參考",
+    "licenseFiles": [],
+    "sourceEvidence": "https://github.com/remotion-dev/skills"
+  },
+  {
+    "id": "hairline",
+    "name": "Hairline 互動線條圖形",
+    "repo": "lucasmarkes/hairline",
+    "url": "https://github.com/lucasmarkes/hairline",
+    "category": "motion",
+    "description": "從概念或 SVG 建立可互動的線條圖形",
+    "licenseNote": "MIT；品牌範例的商標另屬原權利人",
+    "requirements": "Agent 技能；瀏覽器預覽與 Node.js 檢查工具",
+    "tags": [
+      "動畫 緩動",
+      "hairline"
+    ],
+    "subpath": "",
+    "localPath": "repos/lucasmarkes--hairline",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/lucasmarkes--hairline/LICENSE"
+    ],
+    "sourceEvidence": "https://hairline.lucasmarkes.com/skills"
+  },
+  {
+    "id": "anatomy",
+    "name": "Anatomy 等軸測圖形",
+    "repo": "wheresryan22/anatomy",
+    "url": "https://github.com/wheresryan22/anatomy",
+    "category": "three-d",
+    "description": "以機械構造解釋系統的等軸測互動圖形",
+    "licenseNote": "MIT；以下載版本 LICENSE 為準",
+    "requirements": "Agent 技能；SVG、HTML 與選用 WebGL",
+    "tags": [
+      "3D 特效",
+      "anatomy"
+    ],
+    "subpath": "",
+    "localPath": "repos/wheresryan22--anatomy",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/wheresryan22--anatomy/LICENSE"
+    ],
+    "sourceEvidence": "https://skills.wheresryan.sh/anatomy"
+  },
+  {
+    "id": "anatomy-reveal",
+    "name": "Anatomy Reveal 產品拆解",
+    "repo": "annnguyentt/anatomy-reveal-skill",
+    "url": "https://github.com/annnguyentt/anatomy-reveal-skill",
+    "category": "three-d",
+    "description": "產品爆炸圖、互動拆解頁面與揭示動畫",
+    "licenseNote": "MIT；另有 THIRD_PARTY_NOTICES.md，使用或散布前一併閱讀。",
+    "requirements": "Node.js、Chrome、FFmpeg、ImageMagick；尚未安裝或實測",
+    "tags": [
+      "3D 特效",
+      "anatomy-reveal-skill"
+    ],
+    "subpath": "",
+    "localPath": "repos/annnguyentt--anatomy-reveal-skill",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/annnguyentt--anatomy-reveal-skill/LICENSE",
+      "repos/annnguyentt--anatomy-reveal-skill/THIRD_PARTY_NOTICES.md"
+    ],
+    "sourceEvidence": "https://www.typingmind.com/skills/annnguyentt-anatomy-reveal"
+  },
+  {
+    "id": "scenario-blender-skills",
+    "name": "Scenario Blender 技能集合",
+    "repo": "scenario-labs/skills",
+    "url": "https://github.com/scenario-labs/skills",
+    "category": "three-d",
+    "description": "Blender 建模、材質、動畫與 Agent 工作流程；替代原清單無法取得的 blender-agents",
+    "licenseNote": "官方技能集合採 MIT；另行使用 Blender 擴充套件時為 GPL-3.0-or-later，Scenario 雲端生成需帳號與付費額度。",
+    "requirements": "Blender 與相應技能／MCP；本次僅收錄，不啟動外部服務",
+    "tags": [
+      "3D 特效",
+      "skills"
+    ],
+    "subpath": "",
+    "localPath": "repos/scenario-labs--skills",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/scenario-labs--skills/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/scenario-labs/skills"
+  },
+  {
+    "id": "three-js",
+    "name": "Three.js",
+    "repo": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js",
+    "category": "three-d",
+    "description": "網頁 3D 場景、材質、鏡頭與動畫引擎",
+    "licenseNote": "MIT；範例素材可能另有授權",
+    "requirements": "瀏覽器與 WebGL／WebGPU；依目標專案安裝套件",
+    "tags": [
+      "3D 特效",
+      "three.js"
+    ],
+    "subpath": "",
+    "localPath": "repos/mrdoob--three.js",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/mrdoob--three.js/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/mrdoob/three.js"
+  },
+  {
+    "id": "theatre-js",
+    "name": "Theatre.js",
+    "repo": "theatre-js/theatre",
+    "url": "https://github.com/theatre-js/theatre",
+    "category": "three-d",
+    "description": "視覺化時間軸與場景關鍵影格編輯",
+    "licenseNote": "@theatre/core 採 Apache-2.0；@theatre/studio 採 AGPL-3.0-only；整合及散布須依所用套件授權。",
+    "requirements": "Node.js 與瀏覽器；搭配 Three.js 或其他場景",
+    "tags": [
+      "3D 特效",
+      "theatre"
+    ],
+    "subpath": "",
+    "localPath": "repos/theatre-js--theatre",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/theatre-js--theatre/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/theatre-js/theatre"
+  },
+  {
+    "id": "react-postprocessing",
+    "name": "React 後製效果",
+    "repo": "pmndrs/react-postprocessing",
+    "url": "https://github.com/pmndrs/react-postprocessing",
+    "category": "three-d",
+    "description": "React Three Fiber 場景的輝光、景深與後製效果",
+    "licenseNote": "以下載版本 LICENSE 為準",
+    "requirements": "React、Three.js、React Three Fiber 與相容套件版本",
+    "tags": [
+      "3D 特效",
+      "react-postprocessing"
+    ],
+    "subpath": "",
+    "localPath": "repos/pmndrs--react-postprocessing",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/pmndrs--react-postprocessing/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/pmndrs/react-postprocessing"
+  },
+  {
+    "id": "three-quarks",
+    "name": "Three.quarks 粒子特效",
+    "repo": "Alchemist0823/three.quarks",
+    "url": "https://github.com/Alchemist0823/three.quarks",
+    "category": "three-d",
+    "description": "Three.js 粒子系統、軌跡與視覺特效",
+    "licenseNote": "以下載版本 LICENSE 為準；外部編輯器或素材另計",
+    "requirements": "Three.js 與瀏覽器；需要場景整合",
+    "tags": [
+      "3D 特效",
+      "three.quarks"
+    ],
+    "subpath": "",
+    "localPath": "repos/Alchemist0823--three.quarks",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/Alchemist0823--three.quarks/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/Alchemist0823/three.quarks"
+  },
+  {
+    "id": "vfx-js",
+    "name": "VFX-JS 網頁特效",
+    "repo": "fand/vfx-js",
+    "url": "https://github.com/fand/vfx-js",
+    "category": "motion",
+    "description": "為網頁元素加入故障、發光與扭曲效果",
+    "licenseNote": "以下載版本 LICENSE 為準",
+    "requirements": "瀏覽器與 GPU 圖形能力",
+    "tags": [
+      "動畫 緩動",
+      "vfx-js"
+    ],
+    "subpath": "",
+    "localPath": "repos/fand--vfx-js",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/fand--vfx-js/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/fand/vfx-js"
+  },
+  {
+    "id": "gsap",
+    "name": "GSAP 動畫時間軸",
+    "repo": "greensock/GSAP",
+    "url": "https://github.com/greensock/GSAP",
+    "category": "motion",
+    "description": "網頁動畫、捲動互動與時間軸編排",
+    "licenseNote": "採 GSAP 自訂授權；免費使用不等於 MIT，須依官方條款",
+    "requirements": "瀏覽器或前端專案；不需要把全部外掛加入核心依賴",
+    "tags": [
+      "動畫 緩動",
+      "GSAP"
+    ],
+    "subpath": "",
+    "localPath": "repos/greensock--GSAP",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [],
+    "sourceEvidence": "https://github.com/greensock/GSAP"
+  },
+  {
+    "id": "hyperframes",
+    "name": "HyperFrames HTML 影片",
+    "repo": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "category": "video",
+    "description": "以 HTML 建立影片並提供 Agent 製作流程",
+    "licenseNote": "核心與雲端／Pro 功能分開；依下載版本授權及服務條款",
+    "requirements": "Node.js 與官方渲染工具鏈；雲端 AI 功能可能收費",
+    "tags": [
+      "影片 渲染",
+      "hyperframes"
+    ],
+    "subpath": "",
+    "localPath": "repos/heygen-com--hyperframes",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/heygen-com--hyperframes/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/heygen-com/hyperframes"
+  },
+  {
+    "id": "remotion",
+    "name": "Remotion React 影片",
+    "repo": "remotion-dev/remotion",
+    "url": "https://github.com/remotion-dev/remotion",
+    "category": "video",
+    "description": "以 React 元件組合、預覽與渲染影片",
+    "licenseNote": "Remotion 自訂授權；部分公司或使用情境需要付費授權",
+    "requirements": "Node.js、React 與渲染環境；先核對授權適用條件",
+    "tags": [
+      "影片 渲染",
+      "remotion"
+    ],
+    "subpath": "",
+    "localPath": "repos/remotion-dev--remotion",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/remotion-dev--remotion/LICENSE.md"
+    ],
+    "sourceEvidence": "https://github.com/remotion-dev/remotion"
+  },
+  {
+    "id": "manim",
+    "name": "Manim 數學動畫",
+    "repo": "ManimCommunity/manim",
+    "url": "https://github.com/ManimCommunity/manim",
+    "category": "video",
+    "description": "數學方程式、圖表與教學解說動畫",
+    "licenseNote": "MIT；依賴與字型另需核對",
+    "requirements": "Python 與圖形／影音依賴；LaTeX 功能可能需要 TeX",
+    "tags": [
+      "影片 渲染",
+      "manim"
+    ],
+    "subpath": "",
+    "localPath": "repos/ManimCommunity--manim",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/ManimCommunity--manim/LICENSE",
+      "repos/ManimCommunity--manim/LICENSE.community"
+    ],
+    "sourceEvidence": "https://github.com/ManimCommunity/manim"
+  },
+  {
+    "id": "audiocraft",
+    "name": "AudioCraft 音樂與音效",
+    "repo": "facebookresearch/audiocraft",
+    "url": "https://github.com/facebookresearch/audiocraft",
+    "category": "audio",
+    "description": "研究用音樂、音效生成與音訊模型工具",
+    "licenseNote": "程式碼採 MIT；官方模型權重採 CC BY-NC 4.0（非商業），不可把程式碼授權套用到模型權重。",
+    "requirements": "Python、PyTorch、模型權重與適當 GPU；本次不下載模型",
+    "tags": [
+      "音訊 音樂 字幕",
+      "audiocraft"
+    ],
+    "subpath": "",
+    "localPath": "repos/facebookresearch--audiocraft",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/facebookresearch--audiocraft/LICENSE",
+      "repos/facebookresearch--audiocraft/LICENSE_weights"
+    ],
+    "sourceEvidence": "https://github.com/facebookresearch/audiocraft"
+  },
+  {
+    "id": "librosa",
+    "name": "librosa 音訊分析",
+    "repo": "librosa/librosa",
+    "url": "https://github.com/librosa/librosa",
+    "category": "audio",
+    "description": "節拍、音高與音訊特徵分析，供動畫同步使用",
+    "licenseNote": "以下載版本 LICENSE 為準",
+    "requirements": "Python 與音訊解碼依賴",
+    "tags": [
+      "音訊 音樂 字幕",
+      "librosa"
+    ],
+    "subpath": "",
+    "localPath": "repos/librosa--librosa",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "建議收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/librosa--librosa/LICENSE.md"
+    ],
+    "sourceEvidence": "https://github.com/librosa/librosa"
+  },
+  {
+    "id": "whisperx",
+    "name": "WhisperX 字幕對齊",
+    "repo": "m-bain/whisperX",
+    "url": "https://github.com/m-bain/whisperX",
+    "category": "audio",
+    "description": "語音辨識、詞級時間對齊與選用說話者分離",
+    "licenseNote": "程式碼、語音模型與說話者模型的授權需分別核對",
+    "requirements": "Python、FFmpeg 與模型；部分功能需 Hugging Face 授權／權杖",
+    "tags": [
+      "音訊 音樂 字幕",
+      "whisperX"
+    ],
+    "subpath": "",
+    "localPath": "repos/m-bain--whisperX",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/m-bain--whisperX/LICENSE"
+    ],
+    "sourceEvidence": "https://github.com/m-bain/whisperX"
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg 編碼與交付",
+    "repo": "FFmpeg/FFmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg",
+    "category": "rendering",
+    "description": "影音轉碼、合成、濾鏡與輸出交付",
+    "licenseNote": "LGPL／GPL 取決於建置選項與連結元件；散布前確認實際組態",
+    "requirements": "需另外安裝可執行檔；原始碼收錄不等於已安裝 FFmpeg",
+    "tags": [
+      "轉碼 交付",
+      "FFmpeg"
+    ],
+    "subpath": "",
+    "localPath": "repos/FFmpeg--FFmpeg",
+    "collection": "motion-media-2026-11",
+    "integrationLevel": "source-index-only",
+    "reviewedAt": "2026-11-19",
+    "recommendation": "有條件收錄",
+    "executionStatus": "尚未安裝與實測",
+    "licenseFiles": [
+      "repos/FFmpeg--FFmpeg/COPYING.GPLv2",
+      "repos/FFmpeg--FFmpeg/COPYING.GPLv3",
+      "repos/FFmpeg--FFmpeg/COPYING.LGPLv2.1",
+      "repos/FFmpeg--FFmpeg/COPYING.LGPLv3",
+      "repos/FFmpeg--FFmpeg/LICENSE.md"
+    ],
+    "sourceEvidence": "https://github.com/FFmpeg/FFmpeg"
+  }
+]

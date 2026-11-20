@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "magic-ui",
+  "name": "Magic UI",
+  "repo": "magicuidesign/magicui",
+  "url": "https://github.com/magicuidesign/magicui",
+  "category": "components",
+  "subpath": "",
+  "description": "動畫與互動元件",
+  "tags": [
+    "react",
+    "animation",
+    "components"
+  ],
+  "localPath": "repos/magicuidesign--magicui",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "b0b2e4974b1b68cd5278277c6837a27736e20c3a",
+    "checkedAt": "2026-11-19T03:17:14.881Z",
+    "dirty": false,
+    "version": "0.1.0",
+    "tag": null,
+    "latestCommit": "b0b2e4974b1b68cd5278277c6837a27736e20c3a",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.446Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\magicuidesign--magicui",
+  "runtime": {
+    "id": "magic-ui",
+    "repo": "magicuidesign/magicui",
+    "localPath": "repos/magicuidesign--magicui",
+    "available": true,
+    "commit": "b0b2e4974b1b68cd5278277c6837a27736e20c3a",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/magicuidesign--magicui/LICENSE.md"
+    ],
+    "packageManager": "pnpm@9.15.0",
+    "engines": {
+      "node": ">=22.14.0",
+      "pnpm": ">=9"
+    },
+    "scripts": {
+      "preinstall": "npx only-allow pnpm",
+      "dev": "turbo run dev --parallel",
+      "build": "turbo run build",
+      "start": "turbo run start",
+      "lint": "turbo run lint",
+      "lint:fix": "turbo run lint:fix",
+      "typecheck": "turbo run typecheck",
+      "format:fix": "turbo run format:fix",
+      "format:check": "turbo run format:check",
+      "registry-deps:check": "pnpm --filter=www registry-deps:check",
+      "registry-deps:fix": "pnpm --filter=www registry-deps:fix",
+      "build:registry": "pnpm --filter=www build:registry",
+      "check": "pnpm lint && pnpm typecheck && pnpm format:check && pnpm registry-deps:check"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "magic-ui"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "magic-ui"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "magic-ui",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "magic-ui",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

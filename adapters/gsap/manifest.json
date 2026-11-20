@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "gsap",
+  "name": "GSAP 動畫時間軸",
+  "repo": "greensock/GSAP",
+  "url": "https://github.com/greensock/GSAP",
+  "category": "motion",
+  "description": "網頁動畫、捲動互動與時間軸編排",
+  "licenseNote": "採 GSAP 自訂授權；免費使用不等於 MIT，須依官方條款",
+  "requirements": "瀏覽器或前端專案；不需要把全部外掛加入核心依賴",
+  "tags": [
+    "動畫 緩動",
+    "GSAP"
+  ],
+  "subpath": "",
+  "localPath": "repos/greensock--GSAP",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [],
+  "sourceEvidence": "https://github.com/greensock/GSAP",
+  "source": {
+    "status": "downloaded",
+    "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+    "downloadedAt": "2026-11-19T03:54:00.157Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\greensock--GSAP",
+  "runtime": {
+    "id": "gsap",
+    "repo": "greensock/GSAP",
+    "localPath": "repos/greensock--GSAP",
+    "available": true,
+    "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+    "license": "Standard 'no charge' license: https://gsap.com/standard-license.",
+    "licenseFiles": [],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "gsap"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "gsap"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "gsap",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "gsap",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

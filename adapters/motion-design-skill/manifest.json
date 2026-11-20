@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-design-skill",
+  "name": "動態設計技能",
+  "repo": "LottieFiles/motion-design-skill",
+  "url": "https://github.com/LottieFiles/motion-design-skill",
+  "category": "motion",
+  "description": "動態時序、緩動、編排與介面動畫原則",
+  "licenseNote": "MIT；以下載版本 LICENSE 為準",
+  "requirements": "讀取技能文件；實際產出仍需要 Agent 與動畫工具",
+  "tags": [
+    "動畫 緩動",
+    "motion-design-skill"
+  ],
+  "subpath": "",
+  "localPath": "repos/LottieFiles--motion-design-skill",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/LottieFiles--motion-design-skill/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/LottieFiles/motion-design-skill",
+  "source": {
+    "status": "downloaded",
+    "commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+    "downloadedAt": "2026-11-19T03:53:29.156Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\LottieFiles--motion-design-skill",
+  "runtime": {
+    "id": "motion-design-skill",
+    "repo": "LottieFiles/motion-design-skill",
+    "localPath": "repos/LottieFiles--motion-design-skill",
+    "available": true,
+    "commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/LottieFiles--motion-design-skill/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "motion-design-skill"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "motion-design-skill"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "motion-design-skill",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "motion-design-skill",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

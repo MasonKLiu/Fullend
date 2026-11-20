@@ -1,0 +1,6 @@
+import readline from 'node:readline';
+import {toolDefinitions,callTool} from './tools.mjs';
+const rl=readline.createInterface({input:process.stdin,crlfDelay:Infinity});
+export function handle(message){const {id,method,params={}}=message;if(id===undefined)return null;const reply=result=>({jsonrpc:'2.0',id,result});if(message.jsonrpc!=='2.0')return {jsonrpc:'2.0',id,error:{code:-32600,message:'Invalid Request'}};
+ switch(method){case'initialize':return reply({protocolVersion:['2024-11-05','2025-03-26','2025-06-18'].includes(params.protocolVersion)?params.protocolVersion:'2025-06-18',capabilities:{tools:{}},serverInfo:{name:'fullend',version:'1.0.0'}});case'ping':return reply({});case'tools/list':return reply({tools:toolDefinitions});case'tools/call':try{return reply({content:[{type:'text',text:JSON.stringify(callTool(params.name,params.arguments))}]})}catch(e){return reply({isError:true,content:[{type:'text',text:e.message}]})}default:return {jsonrpc:'2.0',id,error:{code:-32601,message:'Method not found'}}}}
+for await(const line of rl){if(!line.trim())continue;try{const result=handle(JSON.parse(line));if(result)process.stdout.write(JSON.stringify(result)+'\n')}catch{process.stdout.write(JSON.stringify({jsonrpc:'2.0',id:null,error:{code:-32700,message:'Parse error'}})+'\n')}}

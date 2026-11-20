@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "manim",
+  "name": "Manim 數學動畫",
+  "repo": "ManimCommunity/manim",
+  "url": "https://github.com/ManimCommunity/manim",
+  "category": "video",
+  "description": "數學方程式、圖表與教學解說動畫",
+  "licenseNote": "MIT；依賴與字型另需核對",
+  "requirements": "Python 與圖形／影音依賴；LaTeX 功能可能需要 TeX",
+  "tags": [
+    "影片 渲染",
+    "manim"
+  ],
+  "subpath": "",
+  "localPath": "repos/ManimCommunity--manim",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/ManimCommunity--manim/LICENSE",
+    "repos/ManimCommunity--manim/LICENSE.community"
+  ],
+  "sourceEvidence": "https://github.com/ManimCommunity/manim",
+  "source": {
+    "status": "downloaded",
+    "commit": "ab7f9527fa2b37893aacc367e21b723845f44ef0",
+    "downloadedAt": "2026-11-19T03:55:16.379Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\ManimCommunity--manim",
+  "runtime": {
+    "id": "manim",
+    "repo": "ManimCommunity/manim",
+    "localPath": "repos/ManimCommunity--manim",
+    "available": true,
+    "commit": "ab7f9527fa2b37893aacc367e21b723845f44ef0",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/ManimCommunity--manim/LICENSE",
+      "repos/ManimCommunity--manim/LICENSE.community"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "manim"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "manim"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "manim",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "manim",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "penpot",
+  "name": "Penpot",
+  "repo": "penpot/penpot",
+  "url": "https://github.com/penpot/penpot",
+  "category": "application",
+  "subpath": "",
+  "description": "開源協作設計平台",
+  "tags": [
+    "design",
+    "svg",
+    "collaboration"
+  ],
+  "localPath": "repos/penpot--penpot",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "fd785b8246d41e399911a36cfd0f2d53c0500a8f",
+    "checkedAt": "2026-11-19T03:17:21.145Z",
+    "dirty": false,
+    "version": "2.17.0",
+    "tag": null,
+    "latestCommit": "fd785b8246d41e399911a36cfd0f2d53c0500a8f",
+    "branch": "develop",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.646Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\penpot--penpot",
+  "runtime": {
+    "id": "penpot",
+    "repo": "penpot/penpot",
+    "localPath": "repos/penpot--penpot",
+    "available": true,
+    "commit": "fd785b8246d41e399911a36cfd0f2d53c0500a8f",
+    "license": "MPL-2.0",
+    "licenseFiles": [
+      "repos/penpot--penpot/LICENSE"
+    ],
+    "packageManager": "pnpm@12.21.0+sha512.66fd8278ee28935ce951792d34367ff3af5c432a2756445823029533835b8da529bbe0be5130afd56ed0713fb8789e47bad82d93bd5ae2fe54b15562d6276ef0",
+    "engines": null,
+    "scripts": {},
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "penpot"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "penpot"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "penpot",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "penpot",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

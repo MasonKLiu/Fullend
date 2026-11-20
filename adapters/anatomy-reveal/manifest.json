@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "anatomy-reveal",
+  "name": "Anatomy Reveal 產品拆解",
+  "repo": "annnguyentt/anatomy-reveal-skill",
+  "url": "https://github.com/annnguyentt/anatomy-reveal-skill",
+  "category": "three-d",
+  "description": "產品爆炸圖、互動拆解頁面與揭示動畫",
+  "licenseNote": "MIT；另有 THIRD_PARTY_NOTICES.md，使用或散布前一併閱讀。",
+  "requirements": "Node.js、Chrome、FFmpeg、ImageMagick；尚未安裝或實測",
+  "tags": [
+    "3D 特效",
+    "anatomy-reveal-skill"
+  ],
+  "subpath": "",
+  "localPath": "repos/annnguyentt--anatomy-reveal-skill",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/annnguyentt--anatomy-reveal-skill/LICENSE",
+    "repos/annnguyentt--anatomy-reveal-skill/THIRD_PARTY_NOTICES.md"
+  ],
+  "sourceEvidence": "https://www.typingmind.com/skills/annnguyentt-anatomy-reveal",
+  "source": {
+    "status": "downloaded",
+    "commit": "dd01e1c04559d79002da07862e26f8a5c2a07644",
+    "downloadedAt": "2026-11-19T03:53:33.685Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\annnguyentt--anatomy-reveal-skill",
+  "runtime": {
+    "id": "anatomy-reveal",
+    "repo": "annnguyentt/anatomy-reveal-skill",
+    "localPath": "repos/annnguyentt--anatomy-reveal-skill",
+    "available": true,
+    "commit": "dd01e1c04559d79002da07862e26f8a5c2a07644",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/annnguyentt--anatomy-reveal-skill/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "anatomy-reveal"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "anatomy-reveal"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "anatomy-reveal",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "anatomy-reveal",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

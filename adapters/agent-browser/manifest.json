@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "agent-browser",
+  "name": "Agent Browser",
+  "repo": "vercel-labs/agent-browser",
+  "url": "https://github.com/vercel-labs/agent-browser",
+  "category": "automation",
+  "subpath": "",
+  "description": "瀏覽器自動化與畫面檢查 CLI",
+  "tags": [
+    "browser",
+    "testing",
+    "automation"
+  ],
+  "localPath": "repos/vercel-labs--agent-browser",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "eb19c9a3cebb2a30918c31b9935340d61e76c788",
+    "checkedAt": "2026-11-19T03:17:36.177Z",
+    "dirty": false,
+    "version": "0.43.0",
+    "tag": null,
+    "latestCommit": "25b5d76f2843bce7be6c59a56d3461b162ad4ac9",
+    "branch": "main",
+    "updateStatus": "available",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:27.048Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\vercel-labs--agent-browser",
+  "runtime": {
+    "id": "agent-browser",
+    "repo": "vercel-labs/agent-browser",
+    "localPath": "repos/vercel-labs--agent-browser",
+    "available": true,
+    "commit": "eb19c9a3cebb2a30918c31b9935340d61e76c788",
+    "license": "Apache-2.0",
+    "licenseFiles": [
+      "repos/vercel-labs--agent-browser/LICENSE"
+    ],
+    "packageManager": "pnpm@11.1.3",
+    "engines": {
+      "node": ">=22.0.0"
+    },
+    "scripts": {
+      "mcp-tools:sync": "cd cli && AGENT_BROWSER_UPDATE_MCP_TOOLS=1 cargo test --bin agent-browser mcp_tool_catalog_snapshot",
+      "version:sync": "node scripts/sync-version.js",
+      "version": "npm run version:sync && git add cli/Cargo.toml",
+      "build:native": "npm run version:sync && cargo build --release --manifest-path cli/Cargo.toml && node scripts/copy-native.js",
+      "build:linux": "npm run version:sync && docker compose -f docker/docker-compose.yml run --rm build-linux",
+      "build:macos": "npm run version:sync && (cargo build --release --manifest-path cli/Cargo.toml --target aarch64-apple-darwin & cargo build --release --manifest-path cli/Cargo.toml --target x86_64-apple-darwin & wait) && cp cli/target/aarch64-apple-darwin/release/agent-browser bin/agent-browser-darwin-arm64 && cp cli/target/x86_64-apple-darwin/release/agent-browser bin/agent-browser-darwin-x64",
+      "build:windows": "npm run version:sync && docker compose -f docker/docker-compose.yml run --rm build-windows",
+      "build:all-platforms": "npm run version:sync && (npm run build:linux & npm run build:windows & wait) && npm run build:macos",
+      "build:docker": "docker build --platform linux/amd64 -t agent-browser-builder -f docker/Dockerfile.build .",
+      "release": "npm run version:sync && npm run build:all-platforms && npm publish",
+      "postinstall": "node scripts/postinstall.js",
+      "test:launcher": "node --test test/launcher.test.mjs",
+      "build:dashboard": "cd packages/dashboard && pnpm build",
+      "build:source": "pnpm install --frozen-lockfile --filter dashboard && pnpm run build:dashboard && pnpm run build:native"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "agent-browser"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "agent-browser"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "agent-browser",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "agent-browser",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

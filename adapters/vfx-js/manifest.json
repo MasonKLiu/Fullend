@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "vfx-js",
+  "name": "VFX-JS 網頁特效",
+  "repo": "fand/vfx-js",
+  "url": "https://github.com/fand/vfx-js",
+  "category": "motion",
+  "description": "為網頁元素加入故障、發光與扭曲效果",
+  "licenseNote": "以下載版本 LICENSE 為準",
+  "requirements": "瀏覽器與 GPU 圖形能力",
+  "tags": [
+    "動畫 緩動",
+    "vfx-js"
+  ],
+  "subpath": "",
+  "localPath": "repos/fand--vfx-js",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/fand--vfx-js/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/fand/vfx-js",
+  "source": {
+    "status": "downloaded",
+    "commit": "45983452617b9eebfa3d7896573c0d1ee5578957",
+    "downloadedAt": "2026-11-19T03:54:00.053Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\fand--vfx-js",
+  "runtime": {
+    "id": "vfx-js",
+    "repo": "fand/vfx-js",
+    "localPath": "repos/fand--vfx-js",
+    "available": true,
+    "commit": "45983452617b9eebfa3d7896573c0d1ee5578957",
+    "license": "MIT",
+    "licenseFiles": [
+      "repos/fand--vfx-js/LICENSE"
+    ],
+    "packageManager": "pnpm@10.33.2",
+    "engines": null,
+    "scripts": {
+      "build": "turbo run build",
+      "dev": "turbo run dev --ui tui --filter=docs --filter=docs-react --filter=docs-transitions --filter=@vfx-js/core --filter=@vfx-js/effects --filter=@vfx-js/react --filter=@vfx-js/transitions --filter=@vfx-js/storybook",
+      "dev:testbed": "turbo run dev --ui tui --concurrency 20 --filter=\"@vfx-js/testbed-*...\"",
+      "clean": "turbo run clean",
+      "lint": "turbo run lint",
+      "prepare": "husky",
+      "test": "turbo run test",
+      "prepare-release": "changeset && turbo run build lint test && changeset version",
+      "release": "changeset publish"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "vfx-js"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "vfx-js"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "vfx-js",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "vfx-js",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

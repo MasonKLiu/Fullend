@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "three-js",
+  "name": "Three.js",
+  "repo": "mrdoob/three.js",
+  "url": "https://github.com/mrdoob/three.js",
+  "category": "three-d",
+  "description": "網頁 3D 場景、材質、鏡頭與動畫引擎",
+  "licenseNote": "MIT；範例素材可能另有授權",
+  "requirements": "瀏覽器與 WebGL／WebGPU；依目標專案安裝套件",
+  "tags": [
+    "3D 特效",
+    "three.js"
+  ],
+  "subpath": "",
+  "localPath": "repos/mrdoob--three.js",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/mrdoob--three.js/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/mrdoob/three.js",
+  "source": {
+    "status": "downloaded",
+    "commit": "65d22859bc10e2caac6e1ab24d7aa951b15fe206",
+    "downloadedAt": "2026-11-19T03:55:03.538Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\mrdoob--three.js",
+  "runtime": {
+    "id": "three-js",
+    "repo": "mrdoob/three.js",
+    "localPath": "repos/mrdoob--three.js",
+    "available": true,
+    "commit": "65d22859bc10e2caac6e1ab24d7aa951b15fe206",
+    "license": "MIT",
+    "licenseFiles": [
+      "repos/mrdoob--three.js/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {
+      "start": "npm run dev",
+      "test": "npm run lint && npm run test-unit && npm run test-unit-addons",
+      "build": "rollup -c utils/build/rollup.config.js",
+      "build-docs": "jsdoc -c utils/docs/jsdoc.config.json && npm run build-llms",
+      "build-llms": "node utils/llms/build.js",
+      "dev": "node utils/build/dev.js && node utils/server.js -p 8080",
+      "preview": "node utils/build/preview.js",
+      "lint-core": "eslint src",
+      "lint-addons": "eslint examples/jsm",
+      "lint-examples": "eslint examples",
+      "lint-editor": "eslint editor",
+      "lint-manual": "eslint manual",
+      "lint-test": "eslint test",
+      "lint-utils": "eslint utils",
+      "lint-tsl": "eslint tsl",
+      "lint": "npm run lint-core",
+      "lint-fix": "npm run lint-core -- --fix && npm run lint-addons -- --fix && npm run lint-examples -- --fix && npm run lint-editor -- --fix && npm run lint-manual -- --fix && npm run lint-test -- --fix && npm run lint-utils -- --fix && npm run lint-tsl -- --fix",
+      "test-unit": "node test/unit/puppeteer.unit.js --testPage=UnitTests.html --mode=headless",
+      "benchmark-node-material-instance": "node test/benchmarks/node-material-instance.js",
+      "test-unit-headful": "node test/unit/puppeteer.unit.js --testPage=UnitTests.html --mode=headful",
+      "test-unit-addons": "node test/unit/puppeteer.unit.js --testPage=UnitTestsAddons.html --mode=headless",
+      "test-unit-addons-headful": "node test/unit/puppeteer.unit.js --testPage=UnitTestsAddons.html --mode=headful",
+      "test-e2e": "node test/e2e/puppeteer.js",
+      "test-e2e-cov": "node test/e2e/check-coverage.js",
+      "test-e2e-webgpu": "node test/e2e/puppeteer.js --webgpu",
+      "test-treeshake": "rollup -c test/rollup.treeshake.config.js",
+      "make-screenshot": "node test/e2e/puppeteer.js --make",
+      "make-tsl-reference": "node test/unit/tsl/make.js"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "three-js"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "three-js"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "three-js",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "three-js",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

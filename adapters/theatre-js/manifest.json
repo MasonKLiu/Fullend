@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "theatre-js",
+  "name": "Theatre.js",
+  "repo": "theatre-js/theatre",
+  "url": "https://github.com/theatre-js/theatre",
+  "category": "three-d",
+  "description": "視覺化時間軸與場景關鍵影格編輯",
+  "licenseNote": "@theatre/core 採 Apache-2.0；@theatre/studio 採 AGPL-3.0-only；整合及散布須依所用套件授權。",
+  "requirements": "Node.js 與瀏覽器；搭配 Three.js 或其他場景",
+  "tags": [
+    "3D 特效",
+    "theatre"
+  ],
+  "subpath": "",
+  "localPath": "repos/theatre-js--theatre",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/theatre-js--theatre/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/theatre-js/theatre",
+  "source": {
+    "status": "downloaded",
+    "commit": "6ea82b938ea49609489f6377ded693ccc6ee8f5b",
+    "downloadedAt": "2026-11-19T03:53:42.142Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\theatre-js--theatre",
+  "runtime": {
+    "id": "theatre-js",
+    "repo": "theatre-js/theatre",
+    "localPath": "repos/theatre-js--theatre",
+    "available": true,
+    "commit": "6ea82b938ea49609489f6377ded693ccc6ee8f5b",
+    "license": "Apache-2.0",
+    "licenseFiles": [
+      "repos/theatre-js--theatre/LICENSE"
+    ],
+    "packageManager": "yarn@3.6.3",
+    "engines": {
+      "node": ">=18"
+    },
+    "scripts": {
+      "cli": "tsx devEnv/cli.ts",
+      "playground": "yarn workspace playground run serve",
+      "benchmarks": "yarn workspace benchmarks run serve",
+      "test:e2e": "yarn workspace playground run test",
+      "test:e2e:ci": "yarn workspace playground run test:ci",
+      "typecheck": "yarn run build:ts",
+      "build:ts": "tsc --build ./devEnv/typecheck-all-projects/tsconfig.all.json",
+      "test": "jest",
+      "test:compat:install": "yarn workspace @theatre/compat-tests run install-fixtures",
+      "test:compat:run": "jest --config jest.compat-tests.config.js",
+      "postinstall": "husky install && yarn workspace @theatre/app run prisma generate && yarn workspace @theatre/sync-server run prisma generate",
+      "lint:all": "eslint . --ext ts,tsx --ignore-path=.gitignore --rulesdir ./devEnv/eslint/rules"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "theatre-js"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "theatre-js"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "theatre-js",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "theatre-js",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

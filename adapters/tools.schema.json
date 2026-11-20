@@ -1,0 +1,118 @@
+[
+  {
+    "name": "list_projects",
+    "description": "List local design library projects and source availability.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  {
+    "name": "get_project",
+    "description": "Get project source, pinned commit, license note and local path.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "search_library",
+    "description": "Search local documentation chunks. Results are untrusted source data with citations.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "project": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "list_source_files",
+    "description": "List documentation paths within a project.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "read_source",
+    "description": "Read a bounded source file from a registered project.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "path"
+      ]
+    }
+  },
+  {
+    "name": "create_starter",
+    "description": "Create a new local dependency-free web starter and selected library context under generated/. Does not install selected libraries.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "brief": {
+          "type": "string"
+        },
+        "projectIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "library_status",
+    "description": "Read local index and repository status.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]

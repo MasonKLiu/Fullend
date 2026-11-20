@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "three-quarks",
+  "name": "Three.quarks 粒子特效",
+  "repo": "Alchemist0823/three.quarks",
+  "url": "https://github.com/Alchemist0823/three.quarks",
+  "category": "three-d",
+  "description": "Three.js 粒子系統、軌跡與視覺特效",
+  "licenseNote": "以下載版本 LICENSE 為準；外部編輯器或素材另計",
+  "requirements": "Three.js 與瀏覽器；需要場景整合",
+  "tags": [
+    "3D 特效",
+    "three.quarks"
+  ],
+  "subpath": "",
+  "localPath": "repos/Alchemist0823--three.quarks",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/Alchemist0823--three.quarks/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/Alchemist0823/three.quarks",
+  "source": {
+    "status": "downloaded",
+    "commit": "9d0445c5949c7da570f412ad7007efecd0357886",
+    "downloadedAt": "2026-11-19T03:53:49.902Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\Alchemist0823--three.quarks",
+  "runtime": {
+    "id": "three-quarks",
+    "repo": "Alchemist0823/three.quarks",
+    "localPath": "repos/Alchemist0823--three.quarks",
+    "available": true,
+    "commit": "9d0445c5949c7da570f412ad7007efecd0357886",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/Alchemist0823--three.quarks/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {
+      "build": "npm run build --workspace=quarks.core --workspace=three.quarks --workspace=quarks.r3f --workspace=quarks.nodes --workspace=quarks.playground --workspace=quarks.examples",
+      "dev": "npm run dev --workspaces",
+      "test": "npm run test  --workspaces",
+      "examples": "npm run dev --workspace=quarks.examples",
+      "playground": "npm run dev --workspace=quarks.playground",
+      "prettier": "npm run prettier --workspaces",
+      "publish": "npm publish --workspace=quarks.core --workspace=three.quarks --workspace=quarks.r3f",
+      "yalc:publish": "npm run yalc:publish --workspace=quarks.core --workspace=three.quarks --workspace=quarks.r3f",
+      "docs": "cross-env NODE_OPTIONS='--experimental-require-module' typedoc",
+      "docs-dev": "http-server ./docs -c-1 -p 8002"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "three-quarks"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "three-quarks"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "three-quarks",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "three-quarks",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "magic-mcp",
+  "name": "Magic MCP",
+  "repo": "21st-dev/magic-mcp",
+  "url": "https://github.com/21st-dev/magic-mcp",
+  "category": "mcp",
+  "subpath": "",
+  "description": "21st UI 元件搜尋與生成 MCP",
+  "tags": [
+    "mcp",
+    "ui",
+    "generation"
+  ],
+  "localPath": "repos/21st-dev--magic-mcp",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+    "checkedAt": "2026-11-19T03:17:16.662Z",
+    "dirty": false,
+    "version": "0.2.3",
+    "tag": null,
+    "latestCommit": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.492Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\21st-dev--magic-mcp",
+  "runtime": {
+    "id": "magic-mcp",
+    "repo": "21st-dev/magic-mcp",
+    "localPath": "repos/21st-dev--magic-mcp",
+    "available": true,
+    "commit": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+    "license": "ISC",
+    "licenseFiles": [
+      "repos/21st-dev--magic-mcp/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "scripts": {
+      "build": "tsc && shx chmod +x dist/*.js",
+      "prepublishOnly": "npm run build",
+      "start": "node dist/index.js"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "magic-mcp"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "magic-mcp"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "magic-mcp",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "magic-mcp",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

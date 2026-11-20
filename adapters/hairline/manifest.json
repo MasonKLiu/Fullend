@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "hairline",
+  "name": "Hairline 互動線條圖形",
+  "repo": "lucasmarkes/hairline",
+  "url": "https://github.com/lucasmarkes/hairline",
+  "category": "motion",
+  "description": "從概念或 SVG 建立可互動的線條圖形",
+  "licenseNote": "MIT；品牌範例的商標另屬原權利人",
+  "requirements": "Agent 技能；瀏覽器預覽與 Node.js 檢查工具",
+  "tags": [
+    "動畫 緩動",
+    "hairline"
+  ],
+  "subpath": "",
+  "localPath": "repos/lucasmarkes--hairline",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/lucasmarkes--hairline/LICENSE"
+  ],
+  "sourceEvidence": "https://hairline.lucasmarkes.com/skills",
+  "source": {
+    "status": "downloaded",
+    "commit": "034f4bf9902c6adcf3cf39d82f85e6010cb4e094",
+    "downloadedAt": "2026-11-19T03:53:33.443Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\lucasmarkes--hairline",
+  "runtime": {
+    "id": "hairline",
+    "repo": "lucasmarkes/hairline",
+    "localPath": "repos/lucasmarkes--hairline",
+    "available": true,
+    "commit": "034f4bf9902c6adcf3cf39d82f85e6010cb4e094",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/lucasmarkes--hairline/LICENSE"
+    ],
+    "packageManager": "pnpm@10.20.0",
+    "engines": {
+      "node": ">=22"
+    },
+    "scripts": {
+      "build": "turbo run build",
+      "dev": "turbo run dev",
+      "typecheck": "turbo run typecheck",
+      "test": "turbo run test",
+      "test:browser": "turbo run test:browser",
+      "clean": "turbo run clean",
+      "release": "node scripts/release.mjs",
+      "kernel": "node scripts/kernel.mjs"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "hairline"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "hairline"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "hairline",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "hairline",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

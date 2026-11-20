@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "lucide",
+  "name": "Lucide",
+  "repo": "lucide-icons/lucide",
+  "url": "https://github.com/lucide-icons/lucide",
+  "category": "assets",
+  "subpath": "",
+  "description": "圖示庫",
+  "tags": [
+    "icons",
+    "svg",
+    "assets"
+  ],
+  "localPath": "repos/lucide-icons--lucide",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "de8d11aac831d519d2377ff516868244475fac06",
+    "checkedAt": "2026-11-19T03:17:29.675Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "de8d11aac831d519d2377ff516868244475fac06",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.849Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\lucide-icons--lucide",
+  "runtime": {
+    "id": "lucide",
+    "repo": "lucide-icons/lucide",
+    "localPath": "repos/lucide-icons--lucide",
+    "available": true,
+    "commit": "de8d11aac831d519d2377ff516868244475fac06",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/lucide-icons--lucide/LICENSE"
+    ],
+    "packageManager": "pnpm@11.22.0+sha512.1ff870c4c6133dfd88fb2afc46dd13d47f09c9794b438c6fdb47ca98caf3bc16381ee0be93a091b8e3824cf01f889f46d7d9e20910fb0be1ab0fb5baa80dd621",
+    "engines": {
+      "node": ">=24.11.1"
+    },
+    "scripts": {
+      "build": "pnpm -r --filter './packages/**' build",
+      "test": "pnpm -r --filter './packages/**' test",
+      "test:update": "pnpm -r --filter './packages/**' --filter !'./packages/lucide-angular' test -- -u",
+      "test:integrations:react": "pnpm --filter lucide-react build && pnpm -r --workspace-concurrency=1 --filter './integrations/lucide-react/**' check",
+      "test:integrations:solid": "pnpm --filter lucide-solid build && pnpm -r --workspace-concurrency=1 --filter './integrations/lucide-solid/**' check",
+      "test:integrations:solid-2": "pnpm --filter @lucide/solid build && pnpm -r --workspace-concurrency=1 --filter './integrations/lucide-solid-2/**' check",
+      "test:integrations:vue": "pnpm --filter @lucide/vue build && pnpm -r --workspace-concurrency=1 --filter './integrations/lucide-vue/**' check",
+      "test:integrations:svelte": "pnpm --filter @lucide/svelte build && pnpm -r --workspace-concurrency=1 --filter './integrations/lucide-svelte/**' check",
+      "test:font": "pnpm --filter build-font test",
+      "test:scripts": "node --test scripts/*.test.mts",
+      "lucide": "pnpm --filter lucide",
+      "lucide-angular": "pnpm --filter lucide-angular",
+      "lucide-react": "pnpm --filter lucide-react",
+      "lucide-react-native": "pnpm --filter lucide-react-native",
+      "lucide-preact": "pnpm --filter lucide-preact",
+      "lucide-solid": "pnpm --filter lucide-solid",
+      "lucide-vue": "pnpm --filter lucide-vue",
+      "lucide-astro": "pnpm --filter @lucide/astro",
+      "lucide-vue-next": "pnpm --filter lucide-vue-next",
+      "lucide-svelte": "pnpm --filter lucide-svelte",
+      "lucide-static": "pnpm --filter lucide-static",
+      "build:outline-icons": "pnpm --filter outline-svg start",
+      "build:font": "pnpm --filter build-font start",
+      "optimize": "node ./scripts/optimizeSvgs.mts",
+      "addjsons": "node ./scripts/addMissingIconJsonFiles.mts",
+      "checkIcons": "node ./scripts/checkIconsAndCategories.mts",
+      "checkLabIcons": "node ./scripts/checkLabIcons.mts",
+      "generate:sponsors": "node scripts/updateSponsors.mts",
+      "generate:contributors": "node ./scripts/updateContributors.mts icons/*.svg",
+      "generate:nextJSAliases": "node ./scripts/generateNextJSAliases.mts",
+      "suggest:metadata": "pnpm --filter @lucide/suggest-metadata-action start",
+      "suggest:metadata:debug": "pnpm --filter @lucide/suggest-metadata-action debug",
+      "suggest:metadata:watch": "pnpm --filter @lucide/suggest-metadata-action watch",
+      "postinstall": "husky",
+      "lint:es": "eslint . --ignore-pattern 'icons/*.json' --ignore-pattern 'categories/*.json' --ignore-pattern 'groups/*.json'",
+      "lint:format": "prettier \"**/*.{js,mjs,ts,jsx,tsx,html,css,scss,json,yml,yaml}\" --check",
+      "lint:format-fix": "prettier \"**/*.{js,mjs,ts,jsx,tsx,html,css,scss,json,yml,yaml}\" --write",
+      "lint:icons": "prettier \"icons/*.svg\" --check",
+      "lint:icons-fix": "prettier \"icons/*.svg\" --write",
+      "lint:format:ci": "node ./scripts/lintFormat.mts",
+      "lint:json:icons": "eslint 'icons/*.json'",
+      "lint:json:categories": "eslint 'categories/*.json'",
+      "lint:json:groups": "eslint 'groups/*.json'",
+      "lint:json": "eslint 'icons/*.json' 'categories/*.json' 'groups/*.json'",
+      "lint:spelling": "cspell --no-progress 'icons/*.json' 'categories/*.json' 'groups/*.json'",
+      "lint:spelling:ci": "node ./scripts/lintSpelling.mts",
+      "lint:icons:all": "pnpm run lint:icons && pnpm run lint:json:icons",
+      "lint": "pnpm lint:es && pnpm lint:format && pnpm lint:json && pnpm lint:spelling && pnpm lint:icons",
+      "format": "prettier \"**/*.{js,mjs,ts,jsx,tsx,html,css,scss,json,yml,yaml}\" --write",
+      "prepare": "husky",
+      "gi": "node ./scripts/generate/generateIcons.mts",
+      "rename": "node ./scripts/rename/renameIcon.mts",
+      "renamePattern": "node ./scripts/rename/renamePattern.mts"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "lucide"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "lucide"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "lucide",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "lucide",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

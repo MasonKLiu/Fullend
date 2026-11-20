@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "ffmpeg",
+  "name": "FFmpeg 編碼與交付",
+  "repo": "FFmpeg/FFmpeg",
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "category": "rendering",
+  "description": "影音轉碼、合成、濾鏡與輸出交付",
+  "licenseNote": "LGPL／GPL 取決於建置選項與連結元件；散布前確認實際組態",
+  "requirements": "需另外安裝可執行檔；原始碼收錄不等於已安裝 FFmpeg",
+  "tags": [
+    "轉碼 交付",
+    "FFmpeg"
+  ],
+  "subpath": "",
+  "localPath": "repos/FFmpeg--FFmpeg",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/FFmpeg--FFmpeg/COPYING.GPLv2",
+    "repos/FFmpeg--FFmpeg/COPYING.GPLv3",
+    "repos/FFmpeg--FFmpeg/COPYING.LGPLv2.1",
+    "repos/FFmpeg--FFmpeg/COPYING.LGPLv3",
+    "repos/FFmpeg--FFmpeg/LICENSE.md"
+  ],
+  "sourceEvidence": "https://github.com/FFmpeg/FFmpeg",
+  "source": {
+    "status": "downloaded",
+    "commit": "4da74f951349f82e77cebc00be64423ccf8f6844",
+    "downloadedAt": "2026-11-19T03:56:43.462Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\FFmpeg--FFmpeg",
+  "runtime": {
+    "id": "ffmpeg",
+    "repo": "FFmpeg/FFmpeg",
+    "localPath": "repos/FFmpeg--FFmpeg",
+    "available": true,
+    "commit": "4da74f951349f82e77cebc00be64423ccf8f6844",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/FFmpeg--FFmpeg/COPYING.GPLv2",
+      "repos/FFmpeg--FFmpeg/COPYING.GPLv3",
+      "repos/FFmpeg--FFmpeg/COPYING.LGPLv2.1",
+      "repos/FFmpeg--FFmpeg/COPYING.LGPLv3",
+      "repos/FFmpeg--FFmpeg/LICENSE.md"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "ffmpeg"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "ffmpeg"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "ffmpeg",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "ffmpeg",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

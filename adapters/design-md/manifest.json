@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "design-md",
+  "name": "DESIGN.md",
+  "repo": "google-labs-code/design.md",
+  "url": "https://github.com/google-labs-code/design.md",
+  "category": "specification",
+  "subpath": "",
+  "description": "設計系統與視覺識別規格",
+  "tags": [
+    "design",
+    "tokens",
+    "specification"
+  ],
+  "localPath": "repos/google-labs-code--design.md",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "db977b3c1d1f309269f43d5d17ae828d54bd6ae3",
+    "checkedAt": "2026-11-19T03:17:05.175Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "db977b3c1d1f309269f43d5d17ae828d54bd6ae3",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.191Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\google-labs-code--design.md",
+  "runtime": {
+    "id": "design-md",
+    "repo": "google-labs-code/design.md",
+    "localPath": "repos/google-labs-code--design.md",
+    "available": true,
+    "commit": "db977b3c1d1f309269f43d5d17ae828d54bd6ae3",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/google-labs-code--design.md/LICENSE"
+    ],
+    "packageManager": "bun@1.3.9",
+    "engines": null,
+    "scripts": {
+      "build": "turbo build",
+      "test": "turbo test",
+      "lint": "turbo lint",
+      "cli": "bun run packages/cli/src/index.ts"
+    },
+    "execution": "讀取規格；不需要應用程式建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "design-md"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "design-md"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "design-md",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "design-md",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

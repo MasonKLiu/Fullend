@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "remotion-skills",
+  "name": "Remotion 官方技能",
+  "repo": "remotion-dev/skills",
+  "url": "https://github.com/remotion-dev/skills",
+  "category": "video",
+  "description": "以 React 建立影片的 Agent 技能與實作指南",
+  "licenseNote": "下載版本未在根目錄提供 LICENSE；先作本地文件參考，重用或散布前確認授權。Remotion 引擎另有商業授權條件。",
+  "requirements": "讀取 SKILL.md；影片產出需要 Remotion 執行環境",
+  "tags": [
+    "影片 渲染",
+    "skills"
+  ],
+  "subpath": "",
+  "localPath": "repos/remotion-dev--skills",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "reuseStatus": "授權未明確，先作本地參考",
+  "licenseFiles": [],
+  "sourceEvidence": "https://github.com/remotion-dev/skills",
+  "source": {
+    "status": "downloaded",
+    "commit": "6f55706d1069e512430582ad86e4e57dc07afe1b",
+    "downloadedAt": "2026-11-19T03:53:30.319Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\remotion-dev--skills",
+  "runtime": {
+    "id": "remotion-skills",
+    "repo": "remotion-dev/skills",
+    "localPath": "repos/remotion-dev--skills",
+    "available": true,
+    "commit": "6f55706d1069e512430582ad86e4e57dc07afe1b",
+    "license": "See licenseFiles",
+    "licenseFiles": [],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {
+      "dev": "remotion studio"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "remotion-skills"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "remotion-skills"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "remotion-skills",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "remotion-skills",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

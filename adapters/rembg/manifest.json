@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "rembg",
+  "name": "rembg",
+  "repo": "danielgatis/rembg",
+  "url": "https://github.com/danielgatis/rembg",
+  "category": "media",
+  "subpath": "",
+  "description": "背景移除工具與 Python 套件",
+  "tags": [
+    "image",
+    "background",
+    "python"
+  ],
+  "localPath": "repos/danielgatis--rembg",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "991927b77667946dab59c50df31f7d4640e80457",
+    "checkedAt": "2026-11-19T03:17:33.840Z",
+    "dirty": false,
+    "version": null,
+    "tag": "v2.0.87",
+    "latestCommit": "991927b77667946dab59c50df31f7d4640e80457",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:27.004Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\danielgatis--rembg",
+  "runtime": {
+    "id": "rembg",
+    "repo": "danielgatis/rembg",
+    "localPath": "repos/danielgatis--rembg",
+    "available": true,
+    "commit": "991927b77667946dab59c50df31f7d4640e80457",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/danielgatis--rembg/LICENSE.txt",
+      "repos/danielgatis--rembg/LICENSE.txt"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "rembg"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "rembg"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "rembg",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "rembg",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

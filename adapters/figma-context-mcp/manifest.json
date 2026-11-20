@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "figma-context-mcp",
+  "name": "Figma Context MCP",
+  "repo": "GLips/Figma-Context-MCP",
+  "url": "https://github.com/GLips/Figma-Context-MCP",
+  "category": "mcp",
+  "subpath": "",
+  "description": "將 Figma 設計上下文提供給 Agent",
+  "tags": [
+    "figma",
+    "mcp",
+    "design"
+  ],
+  "localPath": "repos/GLips--Figma-Context-MCP",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "c083d65c7e002923e7cb98f4e3bdafb105e90f6d",
+    "checkedAt": "2026-11-19T03:17:18.585Z",
+    "dirty": false,
+    "version": "0.13.2",
+    "tag": null,
+    "latestCommit": "c083d65c7e002923e7cb98f4e3bdafb105e90f6d",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.602Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\GLips--Figma-Context-MCP",
+  "runtime": {
+    "id": "figma-context-mcp",
+    "repo": "GLips/Figma-Context-MCP",
+    "localPath": "repos/GLips--Figma-Context-MCP",
+    "available": true,
+    "commit": "c083d65c7e002923e7cb98f4e3bdafb105e90f6d",
+    "license": "MIT",
+    "licenseFiles": [
+      "repos/GLips--Figma-Context-MCP/LICENSE"
+    ],
+    "packageManager": "pnpm@10.10.0",
+    "engines": {
+      "node": ">=20.20.0"
+    },
+    "scripts": {
+      "build": "tsup --dts",
+      "type-check": "tsc --noEmit",
+      "test": "vitest run",
+      "start": "node dist/bin.js",
+      "start:cli": "cross-env NODE_ENV=cli node dist/bin.js",
+      "start:http": "node dist/bin.js",
+      "dev": "cross-env NODE_ENV=development tsup --watch",
+      "dev:cli": "cross-env NODE_ENV=development tsup --watch -- --stdio",
+      "lint": "eslint .",
+      "format": "prettier --write \"src/**/*.ts\"",
+      "inspect": "pnpx @modelcontextprotocol/inspector",
+      "benchmark:simplify": "tsx scripts/benchmark-simplify.ts",
+      "prepack": "pnpm build"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "figma-context-mcp"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "figma-context-mcp"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "figma-context-mcp",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "figma-context-mcp",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

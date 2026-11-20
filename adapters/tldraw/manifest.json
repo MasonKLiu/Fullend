@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "tldraw",
+  "name": "tldraw",
+  "repo": "tldraw/tldraw",
+  "url": "https://github.com/tldraw/tldraw",
+  "category": "canvas",
+  "subpath": "",
+  "description": "無限畫布 SDK；部署前確認授權",
+  "tags": [
+    "canvas",
+    "whiteboard",
+    "sdk"
+  ],
+  "localPath": "repos/tldraw--tldraw",
+  "licenseNote": "使用自訂授權，正式部署可能需要授權金鑰",
+  "source": {
+    "status": "downloaded",
+    "commit": "943cb35d0878ea665d4033f5da04855ccc7ea076",
+    "checkedAt": "2026-11-19T03:17:27.119Z",
+    "dirty": false,
+    "version": "0.0.0",
+    "tag": null,
+    "latestCommit": "943cb35d0878ea665d4033f5da04855ccc7ea076",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.800Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\tldraw--tldraw",
+  "runtime": {
+    "id": "tldraw",
+    "repo": "tldraw/tldraw",
+    "localPath": "repos/tldraw--tldraw",
+    "available": true,
+    "commit": "943cb35d0878ea665d4033f5da04855ccc7ea076",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/tldraw--tldraw/LICENSE.md"
+    ],
+    "packageManager": "pnpm@12.16.1",
+    "engines": {
+      "npm": ">=7.0.0",
+      "node": ">=22.12.0"
+    },
+    "scripts": {
+      "aws-login": "aws sso login --sso-session=tldraw",
+      "clean": "internal/scripts/clean.sh",
+      "extract-draft-changelog": "tsx internal/scripts/extract-draft-changelog.tsx",
+      "preinstall": "node internal/scripts/preinstall.mjs",
+      "postinstall": "husky install && pnpm refresh-assets",
+      "refresh-assets": "tsx internal/scripts/refresh-assets.ts",
+      "dev": "turbo run dev --filter='./apps/examples' --filter='./apps/bemo-worker' --filter='./apps/dotcom/image-resize-worker'",
+      "dev-vscode": "code ./apps/vscode/extension && turbo run dev --filter='./apps/vscode/*'",
+      "dev-app": "process-compose -f apps/dotcom/process-compose.yaml up",
+      "dev-app:clean": "docker compose -f apps/dotcom/zero-cache/docker/docker-compose.yml down --volumes && rm -f /tmp/tldraw-dotcom-zero-dev.db /tmp/tldraw-dotcom-zero-dev.db-shm /tmp/tldraw-dotcom-zero-dev.db-wal && rm -rf apps/dotcom/sync-worker/.wrangler/state-dev apps/dotcom/zero-cache/.schema.js",
+      "dev-app:doctor": "process-compose -f apps/dotcom/process-compose.yaml process list",
+      "dev-docs": "turbo run dev --filter='./apps/docs'",
+      "dev-huppy": "turbo run dev --filter='./internal/huppy'",
+      "dev-template": "./internal/scripts/dev-template.sh",
+      "build": "turbo run build",
+      "build-app": "turbo run build --filter='./apps/dotcom/client'",
+      "build-docs": "turbo run build --filter='./apps/docs'",
+      "build-types": "turbo run build-types",
+      "build-api": "turbo run build-api",
+      "build-i18n": "turbo run build-i18n",
+      "build-package": "turbo run build --filter='./packages/*'",
+      "preview-app": "pnpm build-app && VITE_PREVIEW=1 pnpm dev-app",
+      "preview-examples": "turbo run build --filter='./apps/examples' && cd apps/examples && pnpm preview",
+      "lint": "tsx internal/scripts/lint.ts",
+      "format": "tsx internal/scripts/lint.ts --fix",
+      "format-current": "tsx internal/scripts/lint.ts --fix --current",
+      "lint-current": "tsx internal/scripts/lint.ts --current",
+      "typecheck": "turbo run build-types",
+      "profile-typescript": "tsx internal/scripts/profile-typescript.ts",
+      "profile-tsserver": "tsx internal/scripts/profile-tsserver.ts",
+      "check-packages": "tsx internal/scripts/check-packages.ts",
+      "product-manifest": "tsx internal/scripts/product-manifest.ts",
+      "check-circular-deps": "tsx internal/scripts/check-circular-deps.ts",
+      "update-pr-template": "tsx internal/scripts/update-pr-template.ts",
+      "generate-test-licenses": "tsx internal/scripts/generate-test-licenses.ts",
+      "license-report": "tsx internal/scripts/license-report.ts",
+      "api-check": "turbo run build-api && tsx internal/scripts/api-check.ts",
+      "test-ci": "pnpm exec vitest run",
+      "test": "pnpm exec vitest",
+      "test-coverage": "pnpm exec vitest run --coverage && open-cli coverage/index.html",
+      "e2e": "pnpm --filter examples.tldraw.com e2e",
+      "e2e-dotcom": "pnpm --filter dotcom e2e",
+      "e2e-dotcom-smoke": "pnpm --filter dotcom e2e-smoke",
+      "e2e-dotcom-all": "pnpm --filter dotcom e2e-all",
+      "e2e-dotcom-x10": "pnpm --filter dotcom e2e-x10",
+      "e2e-dotcom-smoke-x10": "pnpm --filter dotcom e2e-smoke-x10",
+      "e2e-dotcom-all-x10": "pnpm --filter dotcom e2e-all-x10",
+      "i18n-check": "i18n-check",
+      "i18n-extract": "tsx internal/scripts/i18n-extract.ts",
+      "i18n-upload-strings": "tsx internal/scripts/i18n-upload-strings.ts",
+      "i18n-download-strings": "tsx internal/scripts/i18n-download-strings.ts",
+      "i18n-fix-strings": "tsx internal/scripts/i18n-fix-strings.ts"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "tldraw"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "tldraw"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "tldraw",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "tldraw",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

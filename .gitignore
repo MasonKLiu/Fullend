@@ -1,0 +1,6 @@
+repos/
+data/
+generated/
+.env
+*.log
+node_modules/

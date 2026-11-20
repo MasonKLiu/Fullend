@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "theme-factory",
+  "name": "Theme Factory",
+  "repo": "anthropics/skills",
+  "url": "https://github.com/anthropics/skills",
+  "category": "skills",
+  "subpath": "skills/theme-factory",
+  "description": "文件、簡報及網站主題",
+  "tags": [
+    "theme",
+    "palette",
+    "document"
+  ],
+  "localPath": "repos/anthropics--skills/skills/theme-factory",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "checkedAt": "2026-11-19T03:17:01.007Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.034Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\anthropics--skills\\skills\\theme-factory",
+  "runtime": {
+    "id": "theme-factory",
+    "repo": "anthropics/skills",
+    "localPath": "repos/anthropics--skills/skills/theme-factory",
+    "available": true,
+    "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/anthropics--skills/skills/theme-factory/LICENSE.txt"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "讀取 SKILL.md；依賴依個別技能需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "theme-factory"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "theme-factory"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "theme-factory",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "theme-factory",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

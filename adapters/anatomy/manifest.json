@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "anatomy",
+  "name": "Anatomy 等軸測圖形",
+  "repo": "wheresryan22/anatomy",
+  "url": "https://github.com/wheresryan22/anatomy",
+  "category": "three-d",
+  "description": "以機械構造解釋系統的等軸測互動圖形",
+  "licenseNote": "MIT；以下載版本 LICENSE 為準",
+  "requirements": "Agent 技能；SVG、HTML 與選用 WebGL",
+  "tags": [
+    "3D 特效",
+    "anatomy"
+  ],
+  "subpath": "",
+  "localPath": "repos/wheresryan22--anatomy",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/wheresryan22--anatomy/LICENSE"
+  ],
+  "sourceEvidence": "https://skills.wheresryan.sh/anatomy",
+  "source": {
+    "status": "downloaded",
+    "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+    "downloadedAt": "2026-11-19T03:53:33.533Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\wheresryan22--anatomy",
+  "runtime": {
+    "id": "anatomy",
+    "repo": "wheresryan22/anatomy",
+    "localPath": "repos/wheresryan22--anatomy",
+    "available": true,
+    "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/wheresryan22--anatomy/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "anatomy"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "anatomy"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "anatomy",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "anatomy",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

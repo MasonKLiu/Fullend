@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "repo": "excalidraw/excalidraw",
+  "url": "https://github.com/excalidraw/excalidraw",
+  "category": "canvas",
+  "subpath": "",
+  "description": "手繪圖表與線框圖",
+  "tags": [
+    "diagram",
+    "wireframe",
+    "drawing"
+  ],
+  "localPath": "repos/excalidraw--excalidraw",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "d732d4f3d50e6ac092ec6e86a4e04a40546a9395",
+    "checkedAt": "2026-11-19T03:17:24.577Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "d732d4f3d50e6ac092ec6e86a4e04a40546a9395",
+    "branch": "master",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.694Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\excalidraw--excalidraw",
+  "runtime": {
+    "id": "excalidraw",
+    "repo": "excalidraw/excalidraw",
+    "localPath": "repos/excalidraw--excalidraw",
+    "available": true,
+    "commit": "d732d4f3d50e6ac092ec6e86a4e04a40546a9395",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/excalidraw--excalidraw/LICENSE"
+    ],
+    "packageManager": "yarn@1.22.22",
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "scripts": {
+      "build-node": "node ./scripts/build-node.js",
+      "build:app:docker": "yarn --cwd ./excalidraw-app build:app:docker",
+      "build:app": "yarn --cwd ./excalidraw-app build:app",
+      "build:common": "yarn --cwd ./packages/common build:esm",
+      "build:element": "yarn --cwd ./packages/element build:esm",
+      "build:excalidraw": "yarn --cwd ./packages/excalidraw build:esm",
+      "build:math": "yarn --cwd ./packages/math build:esm",
+      "build:fractional-indexing": "yarn --cwd ./packages/fractional-indexing build:esm",
+      "build:laser-pointer": "yarn --cwd ./packages/laser-pointer build:esm",
+      "build:packages": "yarn build:common && yarn build:fractional-indexing && yarn build:laser-pointer && yarn build:math && yarn build:element && yarn build:excalidraw",
+      "build:version": "yarn --cwd ./excalidraw-app build:version",
+      "stats:bundle": "yarn --cwd ./excalidraw-app cross-env VITE_APP_ENABLE_TRACKING=true vite build --config ../scripts/stats/vite.config.mts",
+      "stats:perf": "node ./scripts/stats/perf.mjs",
+      "stats:compare": "node ./scripts/stats/perf.mjs --compare",
+      "build": "yarn --cwd ./excalidraw-app build",
+      "build:preview": "yarn --cwd ./excalidraw-app build:preview",
+      "start": "yarn --cwd ./excalidraw-app start",
+      "start:production": "yarn --cwd ./excalidraw-app start:production",
+      "start:example": "yarn build:packages && yarn --cwd ./examples/with-script-in-browser start",
+      "test:all": "yarn test:typecheck && yarn test:code && yarn test:other && yarn test:app --watch=false",
+      "test:app": "vitest",
+      "test:code": "eslint --max-warnings=0 --ext .js,.ts,.tsx .",
+      "test:other": "yarn prettier --list-different",
+      "test:typecheck": "tsc",
+      "test:update": "yarn test:app --update --watch=false",
+      "test": "yarn test:app",
+      "test:coverage": "vitest --coverage",
+      "test:coverage:watch": "vitest --coverage --watch",
+      "test:ui": "yarn test --ui --coverage.enabled=true",
+      "fix:code": "yarn test:code --fix",
+      "fix:other": "yarn prettier --write",
+      "fix": "yarn fix:other && yarn fix:code",
+      "locales-coverage": "node scripts/build-locales-coverage.js",
+      "locales-coverage:description": "node scripts/locales-coverage-description.js",
+      "prepare": "husky install",
+      "prettier": "prettier \"**/*.{css,scss,json,md,html,yml}\" --ignore-path=.eslintignore",
+      "release": "node scripts/release.js",
+      "release:test": "node scripts/release.js --tag=test",
+      "release:next": "node scripts/release.js --tag=next",
+      "release:latest": "node scripts/release.js --tag=latest",
+      "rm:build": "rimraf --glob excalidraw-app/build excalidraw-app/dist excalidraw-app/dev-dist packages/*/dist packages/*/build examples/*/build examples/*/dist",
+      "rm:node_modules": "rimraf --glob node_modules excalidraw-app/node_modules packages/*/node_modules",
+      "clean-install": "yarn rm:node_modules && yarn install"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "excalidraw"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "excalidraw"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "excalidraw",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "excalidraw",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

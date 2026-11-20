@@ -1,0 +1,3 @@
+[mcp_servers.fullend]
+command = "node"
+args = ["D:/MasonAI/Fullend/src/mcp.mjs"]

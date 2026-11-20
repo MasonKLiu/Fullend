@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-ux-pro-max",
+  "name": "UI UX Pro Max",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "category": "skills",
+  "subpath": "",
+  "description": "UI 風格、配色、字體與 UX 設計指南",
+  "tags": [
+    "design",
+    "palette",
+    "typography"
+  ],
+  "localPath": "repos/nextlevelbuilder--ui-ux-pro-max-skill",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+    "checkedAt": "2026-11-19T03:16:58.971Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:25.983Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\nextlevelbuilder--ui-ux-pro-max-skill",
+  "runtime": {
+    "id": "ui-ux-pro-max",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "localPath": "repos/nextlevelbuilder--ui-ux-pro-max-skill",
+    "available": true,
+    "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/nextlevelbuilder--ui-ux-pro-max-skill/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "讀取 SKILL.md；依賴依個別技能需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "ui-ux-pro-max"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "ui-ux-pro-max"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "ui-ux-pro-max",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "ui-ux-pro-max",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

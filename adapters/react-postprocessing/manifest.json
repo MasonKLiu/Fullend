@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "react-postprocessing",
+  "name": "React 後製效果",
+  "repo": "pmndrs/react-postprocessing",
+  "url": "https://github.com/pmndrs/react-postprocessing",
+  "category": "three-d",
+  "description": "React Three Fiber 場景的輝光、景深與後製效果",
+  "licenseNote": "以下載版本 LICENSE 為準",
+  "requirements": "React、Three.js、React Three Fiber 與相容套件版本",
+  "tags": [
+    "3D 特效",
+    "react-postprocessing"
+  ],
+  "subpath": "",
+  "localPath": "repos/pmndrs--react-postprocessing",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/pmndrs--react-postprocessing/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/pmndrs/react-postprocessing",
+  "source": {
+    "status": "downloaded",
+    "commit": "e07ef9a890c8a202a3b20eac0249032cff4e7805",
+    "downloadedAt": "2026-11-19T03:53:45.307Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\pmndrs--react-postprocessing",
+  "runtime": {
+    "id": "react-postprocessing",
+    "repo": "pmndrs/react-postprocessing",
+    "localPath": "repos/pmndrs--react-postprocessing",
+    "available": true,
+    "commit": "e07ef9a890c8a202a3b20eac0249032cff4e7805",
+    "license": "MIT",
+    "licenseFiles": [
+      "repos/pmndrs--react-postprocessing/LICENSE"
+    ],
+    "packageManager": "pnpm@11.15.1",
+    "engines": null,
+    "scripts": {
+      "build": "vite build && tsc -p tsconfig.build.json",
+      "eslint": "eslint . --fix",
+      "eslint:ci": "eslint .",
+      "test": "vitest run",
+      "typecheck": "tsc --noEmit"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "react-postprocessing"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "react-postprocessing"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "react-postprocessing",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "react-postprocessing",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[
+ {"id":"openai","name":"OpenAI / ChatGPT API","kind":"openai","baseUrl":"https://api.openai.com/v1","keyEnv":"OPENAI_API_KEY","models":[],"efforts":["default","low","medium","high"],"note":"使用 API 金鑰；ChatGPT 訂閱與 API 計費分開。模型清單透過 API 讀取或手動輸入；推理強度僅適用支援的模型。"},
+ {"id":"anthropic","name":"Claude API","kind":"anthropic","baseUrl":"https://api.anthropic.com/v1","keyEnv":"ANTHROPIC_API_KEY","models":[],"efforts":["default","low","medium","high"],"note":"非 default 強度使用 output_config.effort，需選擇支援此參數的模型。"},
+ {"id":"gemini","name":"Gemini API","kind":"gemini","baseUrl":"https://generativelanguage.googleapis.com/v1beta","keyEnv":"GEMINI_API_KEY","models":[],"efforts":["default","low","high"],"note":"非 default 使用 thinkingLevel，需支援此參數的 Gemini 模型。"},
+ {"id":"ollama","name":"Ollama（本地）","kind":"openai","baseUrl":"http://127.0.0.1:11434/v1","keyEnv":"","models":[],"efforts":["default"],"note":"請先啟動 Ollama 並下載模型。"},
+ {"id":"lm-studio","name":"LM Studio（本地）","kind":"openai","baseUrl":"http://127.0.0.1:1234/v1","keyEnv":"","models":[],"efforts":["default"],"note":"請先啟動 LM Studio 的 OpenAI-compatible server。"},
+ {"id":"custom","name":"自訂 OpenAI 相容 API","kind":"openai","baseUrl":"http://127.0.0.1:8080/v1","keyEnv":"CUSTOM_API_KEY","models":[],"efforts":["default","low","medium","high"],"note":"修改端點與環境變數名稱可接 OpenRouter、vLLM 等相容服務。"},
+ {"id":"claude-code","name":"Claude Code CLI","kind":"cli","command":"claude","models":[],"efforts":["default"],"note":"需在本機安裝並登入 Claude Code。HTTP 執行需 FULLEND_ENABLE_CLI=1。"},
+ {"id":"codex","name":"Codex CLI","kind":"cli","command":"codex","models":[],"efforts":["default","low","medium","high"],"note":"需在本機安裝並登入 Codex。HTTP 執行需 FULLEND_ENABLE_CLI=1。"},
+ {"id":"gemini-cli","name":"Gemini CLI","kind":"cli","command":"gemini","models":[],"efforts":["default"],"note":"需在本機安裝並登入 Gemini CLI。HTTP 執行需 FULLEND_ENABLE_CLI=1。"}
+]

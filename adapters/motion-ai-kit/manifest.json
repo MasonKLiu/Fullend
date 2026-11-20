@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-ai-kit",
+  "name": "Motion AI Kit",
+  "repo": "motiondivision/ai-kit",
+  "url": "https://github.com/motiondivision/ai-kit",
+  "category": "motion",
+  "description": "CSS 彈簧動畫、文件檢索與動態效能分析",
+  "licenseNote": "下載版本未在根目錄提供 LICENSE；先作本地參考。文件搜尋與部分工具免費，MotionScore 等功能需要 Motion+。",
+  "requirements": "需依官方說明設定 MCP；部分功能需要 Motion+",
+  "tags": [
+    "動畫 緩動",
+    "ai-kit"
+  ],
+  "subpath": "",
+  "localPath": "repos/motiondivision--ai-kit",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "reuseStatus": "授權未明確，先作本地參考",
+  "licenseFiles": [],
+  "sourceEvidence": "https://github.com/motiondivision/ai-kit",
+  "source": {
+    "status": "downloaded",
+    "commit": "1e424943582cbbdb6e3f410687e39f96451447bb",
+    "downloadedAt": "2026-11-19T03:53:29.279Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\motiondivision--ai-kit",
+  "runtime": {
+    "id": "motion-ai-kit",
+    "repo": "motiondivision/ai-kit",
+    "localPath": "repos/motiondivision--ai-kit",
+    "available": true,
+    "commit": "1e424943582cbbdb6e3f410687e39f96451447bb",
+    "license": "See licenseFiles",
+    "licenseFiles": [],
+    "packageManager": null,
+    "engines": {
+      "node": ">=18"
+    },
+    "scripts": {
+      "build": "npm run build --workspace motion-ai",
+      "changelog": "node scripts/generate-changelog-csv.js",
+      "push-to-site": "node scripts/push-to-site.js",
+      "validate": "node scripts/validate-template.mjs",
+      "new": "node scripts/release.mjs"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "motion-ai-kit"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "motion-ai-kit"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "motion-ai-kit",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "motion-ai-kit",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

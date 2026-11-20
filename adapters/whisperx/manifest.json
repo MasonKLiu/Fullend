@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "whisperx",
+  "name": "WhisperX 字幕對齊",
+  "repo": "m-bain/whisperX",
+  "url": "https://github.com/m-bain/whisperX",
+  "category": "audio",
+  "description": "語音辨識、詞級時間對齊與選用說話者分離",
+  "licenseNote": "程式碼、語音模型與說話者模型的授權需分別核對",
+  "requirements": "Python、FFmpeg 與模型；部分功能需 Hugging Face 授權／權杖",
+  "tags": [
+    "音訊 音樂 字幕",
+    "whisperX"
+  ],
+  "subpath": "",
+  "localPath": "repos/m-bain--whisperX",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/m-bain--whisperX/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/m-bain/whisperX",
+  "source": {
+    "status": "downloaded",
+    "commit": "b904f02b7e1f26fd10fb04840d655ff27e88e464",
+    "downloadedAt": "2026-11-19T03:55:29.491Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\m-bain--whisperX",
+  "runtime": {
+    "id": "whisperx",
+    "repo": "m-bain/whisperX",
+    "localPath": "repos/m-bain--whisperX",
+    "available": true,
+    "commit": "b904f02b7e1f26fd10fb04840d655ff27e88e464",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/m-bain--whisperX/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "whisperx"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "whisperx"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "whisperx",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "whisperx",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

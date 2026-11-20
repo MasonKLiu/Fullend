@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "scenario-blender-skills",
+  "name": "Scenario Blender 技能集合",
+  "repo": "scenario-labs/skills",
+  "url": "https://github.com/scenario-labs/skills",
+  "category": "three-d",
+  "description": "Blender 建模、材質、動畫與 Agent 工作流程；替代原清單無法取得的 blender-agents",
+  "licenseNote": "官方技能集合採 MIT；另行使用 Blender 擴充套件時為 GPL-3.0-or-later，Scenario 雲端生成需帳號與付費額度。",
+  "requirements": "Blender 與相應技能／MCP；本次僅收錄，不啟動外部服務",
+  "tags": [
+    "3D 特效",
+    "skills"
+  ],
+  "subpath": "",
+  "localPath": "repos/scenario-labs--skills",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/scenario-labs--skills/LICENSE"
+  ],
+  "sourceEvidence": "https://github.com/scenario-labs/skills",
+  "source": {
+    "status": "downloaded",
+    "commit": "a14d061fe5db33d339b1d89f775f37337481295f",
+    "downloadedAt": "2026-11-19T03:53:56.490Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\scenario-labs--skills",
+  "runtime": {
+    "id": "scenario-blender-skills",
+    "repo": "scenario-labs/skills",
+    "localPath": "repos/scenario-labs--skills",
+    "available": true,
+    "commit": "a14d061fe5db33d339b1d89f775f37337481295f",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/scenario-labs--skills/LICENSE"
+    ],
+    "packageManager": "pnpm@11.21.0",
+    "engines": {
+      "node": ">=22.18.0"
+    },
+    "scripts": {
+      "prepare": "husky",
+      "validate": "pnpm style && pnpm format:check && pnpm sync:agent-commands:check && pnpm skill-files && pnpm lint:py && pnpm groupings && pnpm manifest:check && pnpm bugbot:check && pnpm readme && pnpm words:check && pnpm spell && pnpm spec",
+      "style": "./scripts/check-style.sh",
+      "format": "prettier --write . && pnpm sync:agent-commands",
+      "format:check": "prettier --check .",
+      "skill-files": "./scripts/check-skill-files.sh",
+      "groupings": "node ./scripts/check-groupings.mjs",
+      "manifest": "node ./scripts/generate-plugin-manifest.mjs",
+      "manifest:check": "node ./scripts/generate-plugin-manifest.mjs --check",
+      "bugbot": "node ./scripts/generate-bugbot.mjs",
+      "bugbot:check": "node ./scripts/generate-bugbot.mjs --check",
+      "readme": "node ./scripts/check-readme.mjs",
+      "spell": "./scripts/check-spelling.sh",
+      "words:sort": "./scripts/sort-project-words.sh",
+      "words:check": "./scripts/sort-project-words.sh --check",
+      "spec": "./scripts/validate-skills.sh",
+      "lint:py": "uvx ruff@0.16.10 check",
+      "test": "pnpm test:meta && ./scripts/test-skill-scripts.sh",
+      "test:meta": "node --test \"scripts/*.test.mjs\" \".claude/hooks/*.test.mjs\"",
+      "test:coverage": "COVERAGE=1 ./scripts/test-skill-scripts.sh",
+      "sync:agent-commands": "node scripts/sync-agent-commands.mjs",
+      "sync:agent-commands:check": "node scripts/sync-agent-commands.mjs --check",
+      "test:agent-commands": "node --test scripts/sync-agent-commands.test.mjs",
+      "test:manifest": "node --test scripts/generate-plugin-manifest.test.mjs",
+      "test:bugbot": "node --test scripts/generate-bugbot.test.mjs",
+      "test:style": "node --test scripts/check-style.test.mjs",
+      "test:hooks": "node --test .claude/hooks/guard-commit.test.mjs",
+      "test:index-sync": "node --test scripts/sync-generated-index.test.mjs",
+      "test:spec": "node --test scripts/validate-skills.test.mjs",
+      "test:readme": "node --test scripts/check-readme.test.mjs",
+      "test:runner": "node --test scripts/test-skill-scripts.test.mjs"
+    },
+    "execution": "使用上游指定的套件管理工具安裝依賴，再依下列指令建置",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "scenario-blender-skills"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "scenario-blender-skills"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "scenario-blender-skills",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "scenario-blender-skills",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

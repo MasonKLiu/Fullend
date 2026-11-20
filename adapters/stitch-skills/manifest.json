@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "stitch-skills",
+  "name": "Stitch Skills",
+  "repo": "google-labs-code/stitch-skills",
+  "url": "https://github.com/google-labs-code/stitch-skills",
+  "category": "skills",
+  "subpath": "",
+  "description": "Stitch 設計工作流程與 Agent 技能",
+  "tags": [
+    "stitch",
+    "screen",
+    "google"
+  ],
+  "localPath": "repos/google-labs-code--stitch-skills",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "4cf4db8e4143b09e40f9bc887429d81f41ab3947",
+    "checkedAt": "2026-11-19T03:17:02.944Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "4cf4db8e4143b09e40f9bc887429d81f41ab3947",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.080Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\google-labs-code--stitch-skills",
+  "runtime": {
+    "id": "stitch-skills",
+    "repo": "google-labs-code/stitch-skills",
+    "localPath": "repos/google-labs-code--stitch-skills",
+    "available": true,
+    "commit": "4cf4db8e4143b09e40f9bc887429d81f41ab3947",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/google-labs-code--stitch-skills/LICENSE"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "讀取 SKILL.md；依賴依個別技能需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "stitch-skills"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "stitch-skills"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "stitch-skills",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "stitch-skills",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

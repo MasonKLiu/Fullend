@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "audiocraft",
+  "name": "AudioCraft 音樂與音效",
+  "repo": "facebookresearch/audiocraft",
+  "url": "https://github.com/facebookresearch/audiocraft",
+  "category": "audio",
+  "description": "研究用音樂、音效生成與音訊模型工具",
+  "licenseNote": "程式碼採 MIT；官方模型權重採 CC BY-NC 4.0（非商業），不可把程式碼授權套用到模型權重。",
+  "requirements": "Python、PyTorch、模型權重與適當 GPU；本次不下載模型",
+  "tags": [
+    "音訊 音樂 字幕",
+    "audiocraft"
+  ],
+  "subpath": "",
+  "localPath": "repos/facebookresearch--audiocraft",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "有條件收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/facebookresearch--audiocraft/LICENSE",
+    "repos/facebookresearch--audiocraft/LICENSE_weights"
+  ],
+  "sourceEvidence": "https://github.com/facebookresearch/audiocraft",
+  "source": {
+    "status": "downloaded",
+    "commit": "896ec7c47f5e5d1e5aa1e4b260c4405328bf009d",
+    "downloadedAt": "2026-11-19T03:55:21.111Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\facebookresearch--audiocraft",
+  "runtime": {
+    "id": "audiocraft",
+    "repo": "facebookresearch/audiocraft",
+    "localPath": "repos/facebookresearch--audiocraft",
+    "available": true,
+    "commit": "896ec7c47f5e5d1e5aa1e4b260c4405328bf009d",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/facebookresearch--audiocraft/LICENSE",
+      "repos/facebookresearch--audiocraft/LICENSE_weights"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "audiocraft"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "audiocraft"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "audiocraft",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "audiocraft",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

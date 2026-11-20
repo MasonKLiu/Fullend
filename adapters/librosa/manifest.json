@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "librosa",
+  "name": "librosa 音訊分析",
+  "repo": "librosa/librosa",
+  "url": "https://github.com/librosa/librosa",
+  "category": "audio",
+  "description": "節拍、音高與音訊特徵分析，供動畫同步使用",
+  "licenseNote": "以下載版本 LICENSE 為準",
+  "requirements": "Python 與音訊解碼依賴",
+  "tags": [
+    "音訊 音樂 字幕",
+    "librosa"
+  ],
+  "subpath": "",
+  "localPath": "repos/librosa--librosa",
+  "collection": "motion-media-2026-11",
+  "integrationLevel": "source-index-only",
+  "reviewedAt": "2026-11-19",
+  "recommendation": "建議收錄",
+  "executionStatus": "尚未安裝與實測",
+  "licenseFiles": [
+    "repos/librosa--librosa/LICENSE.md"
+  ],
+  "sourceEvidence": "https://github.com/librosa/librosa",
+  "source": {
+    "status": "downloaded",
+    "commit": "036ecbc20faff330e8f36e6571b9b503d4152539",
+    "downloadedAt": "2026-11-19T03:55:25.867Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\librosa--librosa",
+  "runtime": {
+    "id": "librosa",
+    "repo": "librosa/librosa",
+    "localPath": "repos/librosa--librosa",
+    "available": true,
+    "commit": "036ecbc20faff330e8f36e6571b9b503d4152539",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/librosa--librosa/LICENSE.md"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "請閱讀上游 README 的 Python、Docker 或其他執行需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "librosa"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "librosa"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "librosa",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "librosa",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

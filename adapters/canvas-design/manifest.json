@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "canvas-design",
+  "name": "Canvas Design",
+  "repo": "anthropics/skills",
+  "url": "https://github.com/anthropics/skills",
+  "category": "skills",
+  "subpath": "skills/canvas-design",
+  "description": "海報與靜態視覺創作技能",
+  "tags": [
+    "poster",
+    "art",
+    "png",
+    "pdf"
+  ],
+  "localPath": "repos/anthropics--skills/skills/canvas-design",
+  "licenseNote": "以下載版本的 LICENSE 為準；API 與託管費用另計",
+  "source": {
+    "status": "downloaded",
+    "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "checkedAt": "2026-11-19T03:17:01.007Z",
+    "dirty": false,
+    "version": null,
+    "tag": null,
+    "latestCommit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "branch": "main",
+    "updateStatus": "current",
+    "checkError": null,
+    "downloadedAt": "2026-11-19T03:53:26.034Z"
+  },
+  "available": true,
+  "absoluteSourcePath": "D:\\MasonAI\\Fullend\\repos\\anthropics--skills\\skills\\canvas-design",
+  "runtime": {
+    "id": "canvas-design",
+    "repo": "anthropics/skills",
+    "localPath": "repos/anthropics--skills/skills/canvas-design",
+    "available": true,
+    "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "license": "See licenseFiles",
+    "licenseFiles": [
+      "repos/anthropics--skills/skills/canvas-design/LICENSE.txt"
+    ],
+    "packageManager": null,
+    "engines": null,
+    "scripts": {},
+    "execution": "讀取 SKILL.md；依賴依個別技能需求",
+    "buildStatus": "not-run"
+  },
+  "tools": {
+    "inspect": {
+      "name": "get_project",
+      "arguments": {
+        "id": "canvas-design"
+      }
+    },
+    "files": {
+      "name": "list_source_files",
+      "arguments": {
+        "id": "canvas-design"
+      }
+    },
+    "search": {
+      "name": "search_library",
+      "arguments": {
+        "project": "canvas-design",
+        "query": "YOUR_QUERY"
+      }
+    },
+    "read": {
+      "name": "read_source",
+      "arguments": {
+        "id": "canvas-design",
+        "path": "RELATIVE_FILE"
+      }
+    }
+  }
+}

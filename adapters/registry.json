@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T02:32:40.339Z",
+  "projects": [
+    {
+      "id": "ui-ux-pro-max",
+      "manifest": "ui-ux-pro-max/manifest.json"
+    },
+    {
+      "id": "canvas-design",
+      "manifest": "canvas-design/manifest.json"
+    },
+    {
+      "id": "pptx",
+      "manifest": "pptx/manifest.json"
+    },
+    {
+      "id": "theme-factory",
+      "manifest": "theme-factory/manifest.json"
+    },
+    {
+      "id": "stitch-skills",
+      "manifest": "stitch-skills/manifest.json"
+    },
+    {
+      "id": "frontend-design",
+      "manifest": "frontend-design/manifest.json"
+    },
+    {
+      "id": "design-md",
+      "manifest": "design-md/manifest.json"
+    },
+    {
+      "id": "astryx",
+      "manifest": "astryx/manifest.json"
+    },
+    {
+      "id": "shadcn-ui",
+      "manifest": "shadcn-ui/manifest.json"
+    },
+    {
+      "id": "tailwindcss",
+      "manifest": "tailwindcss/manifest.json"
+    },
+    {
+      "id": "magic-ui",
+      "manifest": "magic-ui/manifest.json"
+    },
+    {
+      "id": "magic-mcp",
+      "manifest": "magic-mcp/manifest.json"
+    },
+    {
+      "id": "figma-context-mcp",
+      "manifest": "figma-context-mcp/manifest.json"
+    },
+    {
+      "id": "penpot",
+      "manifest": "penpot/manifest.json"
+    },
+    {
+      "id": "excalidraw",
+      "manifest": "excalidraw/manifest.json"
+    },
+    {
+      "id": "tldraw",
+      "manifest": "tldraw/manifest.json"
+    },
+    {
+      "id": "lucide",
+      "manifest": "lucide/manifest.json"
+    },
+    {
+      "id": "leonardo",
+      "manifest": "leonardo/manifest.json"
+    },
+    {
+      "id": "rembg",
+      "manifest": "rembg/manifest.json"
+    },
+    {
+      "id": "agent-browser",
+      "manifest": "agent-browser/manifest.json"
+    },
+    {
+      "id": "motion-design-skill",
+      "manifest": "motion-design-skill/manifest.json"
+    },
+    {
+      "id": "motion-ai-kit",
+      "manifest": "motion-ai-kit/manifest.json"
+    },
+    {
+      "id": "remotion-skills",
+      "manifest": "remotion-skills/manifest.json"
+    },
+    {
+      "id": "hairline",
+      "manifest": "hairline/manifest.json"
+    },
+    {
+      "id": "anatomy",
+      "manifest": "anatomy/manifest.json"
+    },
+    {
+      "id": "anatomy-reveal",
+      "manifest": "anatomy-reveal/manifest.json"
+    },
+    {
+      "id": "scenario-blender-skills",
+      "manifest": "scenario-blender-skills/manifest.json"
+    },
+    {
+      "id": "three-js",
+      "manifest": "three-js/manifest.json"
+    },
+    {
+      "id": "theatre-js",
+      "manifest": "theatre-js/manifest.json"
+    },
+    {
+      "id": "react-postprocessing",
+      "manifest": "react-postprocessing/manifest.json"
+    },
+    {
+      "id": "three-quarks",
+      "manifest": "three-quarks/manifest.json"
+    },
+    {
+      "id": "vfx-js",
+      "manifest": "vfx-js/manifest.json"
+    },
+    {
+      "id": "gsap",
+      "manifest": "gsap/manifest.json"
+    },
+    {
+      "id": "hyperframes",
+      "manifest": "hyperframes/manifest.json"
+    },
+    {
+      "id": "remotion",
+      "manifest": "remotion/manifest.json"
+    },
+    {
+      "id": "manim",
+      "manifest": "manim/manifest.json"
+    },
+    {
+      "id": "audiocraft",
+      "manifest": "audiocraft/manifest.json"
+    },
+    {
+      "id": "librosa",
+      "manifest": "librosa/manifest.json"
+    },
+    {
+      "id": "whisperx",
+      "manifest": "whisperx/manifest.json"
+    },
+    {
+      "id": "ffmpeg",
+      "manifest": "ffmpeg/manifest.json"
+    }
+  ]
+}
