@@ -28,4 +28,4 @@ if(req.method==='POST'&&route==='/api/tools/call')return send(callTool(body.name
 if(req.method==='GET'&&['/','/app.js','/repositories.js','/style.css'].includes(route)){const file=route==='/'?'index.html':route.slice(1);res.writeHead(200,{'Content-Type':file.endsWith('.css')?'text/css':file.endsWith('.js')?'text/javascript':'text/html; charset=utf-8'});res.end(fs.readFileSync(path.join(ROOT,'public',file)));return}
 send({error:'Not found'},404);
 }catch(e){send({error:e.message},400)}})}
-if(process.argv[1]&&path.resolve(process.argv[1])===path.join(ROOT,'src','server.mjs')){const port=Number(process.env.PORT||4310);createServer().listen(port,'127.0.0.1',()=>console.log(`Fullend running at http://127.0.0.1:${port}`))}
+if(process.argv[1]&&path.resolve(process.argv[1])===path.join(ROOT,'src','server.mjs')){const port=Number(process.env.PORT||4330);createServer().listen(port,'127.0.0.1',()=>console.log(`Fullend running at http://127.0.0.1:${port}`))}
